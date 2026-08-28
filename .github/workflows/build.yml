@@ -29,9 +29,9 @@ jobs:
 
       - name: Set up keystore
         run: |
-          cd TMessagesProj/config
+          rm -f TMessagesProj/config/release.keystore
           keytool -genkey -v \
-            -keystore release.keystore \
+            -keystore TMessagesProj/config/release.keystore \
             -alias verdgram \
             -keyalg RSA \
             -keysize 2048 \
@@ -42,15 +42,13 @@ jobs:
 
       - name: Set gradle properties
         run: |
-          cat >> gradle.properties << 'PROPS'
-          RELEASE_KEY_PASSWORD=verdgram123
-          RELEASE_KEY_ALIAS=verdgram
-          RELEASE_STORE_PASSWORD=verdgram123
-          PROPS
+          echo "RELEASE_KEY_PASSWORD=verdgram123" >> gradle.properties
+          echo "RELEASE_KEY_ALIAS=verdgram" >> gradle.properties
+          echo "RELEASE_STORE_PASSWORD=verdgram123" >> gradle.properties
 
       - name: Create google-services.json
         run: |
-          cp TMessagesProj/google-services.json.example TMessagesProj/google-services.json 2>/dev/null || cat > TMessagesProj/google-services.json << 'JSON'
+          cat > TMessagesProj/google-services.json << 'JSON'
           {
             "project_info": {
               "project_number": "1234567890",
