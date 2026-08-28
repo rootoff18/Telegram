@@ -18,12 +18,12 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BillingController;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.GenericProvider;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.BillingController;
+import org.verdgram.messenger.BuildVars;
+import org.verdgram.messenger.GenericProvider;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.R;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.CheckBox2;
 import org.telegram.ui.Components.CheckBoxBase;

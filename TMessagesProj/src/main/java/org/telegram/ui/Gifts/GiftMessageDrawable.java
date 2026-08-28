@@ -1,7 +1,7 @@
 package org.telegram.ui.Gifts;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.dpf2;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dpf2;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -25,11 +25,11 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.ImageLocation;
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.R;
-import org.telegram.messenger.utils.DrawableUtils;
+import org.verdgram.messenger.ApplicationLoader;
+import org.verdgram.messenger.ImageLocation;
+import org.verdgram.messenger.ImageReceiver;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.utils.DrawableUtils;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.AnimatedEmojiDrawable;

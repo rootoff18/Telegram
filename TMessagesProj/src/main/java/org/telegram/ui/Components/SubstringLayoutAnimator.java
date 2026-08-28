@@ -10,7 +10,7 @@ import android.text.StaticLayout;
 import android.text.TextPaint;
 import android.view.View;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.verdgram.messenger.AndroidUtilities;
 
 public class SubstringLayoutAnimator {
 

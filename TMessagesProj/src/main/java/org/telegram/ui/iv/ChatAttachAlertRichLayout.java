@@ -1,7 +1,7 @@
 package org.telegram.ui.iv;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.LocaleController.getString;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,21 +26,21 @@ import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import org.telegram.messenger.AccountInstance;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SendMessageChatArguments;
+import org.verdgram.messenger.AccountInstance;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.Emoji;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.SendMessageChatArguments;
 import org.telegram.ui.Components.BulletinFactory;
-import org.telegram.messenger.SendMessagesHelper;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.UserObject;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.SendMessagesHelper;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.UserObject;
+import org.verdgram.messenger.Utilities;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_iv;
@@ -1045,11 +1045,11 @@ public class ChatAttachAlertRichLayout extends ChatAttachAlert.AttachAlertLayout
                     listView.pendingMediaRow = null;
                     for (int a = 0; a < order.size(); a++) {
                         final Object object = photos.get(order.get(a));
-                        if (object instanceof org.telegram.messenger.MediaController.PhotoEntry) {
+                        if (object instanceof org.verdgram.messenger.MediaController.PhotoEntry) {
                             if (target != null) {
-                                listView.addMediaToRow(target, (org.telegram.messenger.MediaController.PhotoEntry) object);
+                                listView.addMediaToRow(target, (org.verdgram.messenger.MediaController.PhotoEntry) object);
                             } else {
-                                listView.attachMedia((org.telegram.messenger.MediaController.PhotoEntry) object);
+                                listView.attachMedia((org.verdgram.messenger.MediaController.PhotoEntry) object);
                             }
                             break;
                         }

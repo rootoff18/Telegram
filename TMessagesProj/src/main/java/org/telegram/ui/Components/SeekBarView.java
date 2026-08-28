@@ -8,7 +8,7 @@
 
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -37,12 +37,12 @@ import android.widget.TextView;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.Emoji;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.Utilities;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Adapters.FiltersView;
 import org.telegram.ui.DialogsActivity;

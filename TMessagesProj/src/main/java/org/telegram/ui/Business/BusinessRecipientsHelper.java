@@ -1,20 +1,20 @@
 package org.telegram.ui.Business;
 
-import static org.telegram.messenger.LocaleController.formatString;
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.LocaleController.formatString;
+import static org.verdgram.messenger.LocaleController.getString;
 
 import android.content.Context;
 import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BotWebViewVibrationEffect;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.BotWebViewVibrationEffect;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_account;
 import org.telegram.ui.ActionBar.AlertDialog;

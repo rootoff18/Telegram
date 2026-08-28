@@ -8,9 +8,9 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.RichMessageLayout;
-import org.telegram.messenger.UserConfig;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.RichMessageLayout;
+import org.verdgram.messenger.UserConfig;
 import org.telegram.tgnet.tl.TL_iv;
 import org.telegram.tgnet.tl.TL_keyboard;
 import org.telegram.ui.ActionBar.Theme;

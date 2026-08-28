@@ -8,7 +8,7 @@
 
 package org.telegram.ui;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.Manifest;
 import android.content.Context;
@@ -37,13 +37,13 @@ import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 
 import org.telegram.PhoneFormat.PhoneFormat;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.LocationController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.ApplicationLoader;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.LocationController;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.AlertDialog;

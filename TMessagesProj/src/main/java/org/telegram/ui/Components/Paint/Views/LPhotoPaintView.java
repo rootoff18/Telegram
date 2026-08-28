@@ -1,6 +1,6 @@
 package org.telegram.ui.Components.Paint.Views;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -54,23 +54,23 @@ import com.google.android.gms.vision.Frame;
 import com.google.android.gms.vision.face.Face;
 import com.google.android.gms.vision.face.FaceDetector;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Bitmaps;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.DispatchQueue;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.VideoEditedInfo;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.Bitmaps;
+import org.verdgram.messenger.BuildVars;
+import org.verdgram.messenger.DispatchQueue;
+import org.verdgram.messenger.Emoji;
+import org.verdgram.messenger.FileLoader;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.MediaController;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.VideoEditedInfo;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.ActionBarPopupWindow;

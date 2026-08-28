@@ -1,6 +1,6 @@
 package org.telegram.ui.Components.Premium.boosts.cells.statistics;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -17,8 +17,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.R;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.R;
 
 public class CounterDrawable extends Drawable {
 

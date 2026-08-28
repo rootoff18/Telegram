@@ -1,6 +1,6 @@
 package org.telegram.ui;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -34,11 +34,11 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.StatsController;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.StatsController;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.AlertDialog;
 import org.telegram.ui.ActionBar.BaseFragment;

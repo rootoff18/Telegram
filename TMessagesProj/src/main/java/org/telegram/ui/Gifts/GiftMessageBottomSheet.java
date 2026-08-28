@@ -1,7 +1,7 @@
 package org.telegram.ui.Gifts;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.getActivity;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.getActivity;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -22,13 +22,13 @@ import androidx.annotation.NonNull;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.DialogObject;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.utils.DrawableUtils;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.DialogObject;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.utils.DrawableUtils;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_stars;

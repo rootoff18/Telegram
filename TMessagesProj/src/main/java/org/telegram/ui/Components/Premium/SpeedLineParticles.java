@@ -6,8 +6,8 @@ import android.graphics.RectF;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.Utilities;
 import org.telegram.ui.ActionBar.Theme;
 
 import java.util.ArrayList;

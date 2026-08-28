@@ -1,8 +1,8 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.LocaleController.formatString;
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.LocaleController.formatString;
+import static org.verdgram.messenger.LocaleController.getString;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -37,17 +37,17 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BillingController;
-import org.telegram.messenger.ChatObject;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.MessagesStorage;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.UserObject;
-import org.telegram.messenger.browser.Browser;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.BillingController;
+import org.verdgram.messenger.ChatObject;
+import org.verdgram.messenger.Emoji;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.MessagesStorage;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.UserObject;
+import org.verdgram.messenger.browser.Browser;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

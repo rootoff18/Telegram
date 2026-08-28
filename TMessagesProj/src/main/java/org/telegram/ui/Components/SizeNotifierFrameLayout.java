@@ -8,8 +8,8 @@
 
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.lerp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -42,12 +42,12 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.DispatchQueue;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LiteMode;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.DispatchQueue;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.LiteMode;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.Utilities;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.AdjustPanLayoutHelper;
 import org.telegram.ui.ActionBar.INavigationLayout;

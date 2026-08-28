@@ -10,10 +10,10 @@ import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 import android.text.TextUtils;
 
-import org.telegram.messenger.ChatObject;
-import org.telegram.messenger.MediaDataController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.UserConfig;
+import org.verdgram.messenger.ChatObject;
+import org.verdgram.messenger.MediaDataController;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_stories;
 import org.telegram.ui.ActionBar.BaseFragment;

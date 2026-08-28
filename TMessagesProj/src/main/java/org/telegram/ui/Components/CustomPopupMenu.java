@@ -6,8 +6,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.R;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.R;
 import org.telegram.ui.ActionBar.ActionBarPopupWindow;
 import org.telegram.ui.ActionBar.Theme;
 

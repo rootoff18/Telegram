@@ -8,7 +8,7 @@
 
 package org.telegram.ui;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -46,15 +46,15 @@ import androidx.biometric.BiometricManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.ApplicationLoader;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.Utilities;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.ActionBarMenu;
 import org.telegram.ui.ActionBar.ActionBarMenuItem;

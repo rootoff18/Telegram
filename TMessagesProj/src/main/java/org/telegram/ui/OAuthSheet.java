@@ -1,10 +1,10 @@
 package org.telegram.ui;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.replaceSingleLink;
-import static org.telegram.messenger.AndroidUtilities.replaceSingleLinkBold;
-import static org.telegram.messenger.LocaleController.formatString;
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.replaceSingleLink;
+import static org.verdgram.messenger.AndroidUtilities.replaceSingleLinkBold;
+import static org.verdgram.messenger.LocaleController.formatString;
+import static org.verdgram.messenger.LocaleController.getString;
 import static org.telegram.ui.web.BotWebViewContainer.obj;
 
 import android.app.Activity;
@@ -28,18 +28,18 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.telegram.PhoneFormat.PhoneFormat;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.ImageLocation;
-import org.telegram.messenger.MediaDataController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.UserObject;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.browser.Browser;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.ApplicationLoader;
+import org.verdgram.messenger.Emoji;
+import org.verdgram.messenger.FileLoader;
+import org.verdgram.messenger.ImageLocation;
+import org.verdgram.messenger.MediaDataController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.UserObject;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.browser.Browser;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

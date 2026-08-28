@@ -1,10 +1,10 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.MessageObject.POSITION_FLAG_BOTTOM;
-import static org.telegram.messenger.MessageObject.POSITION_FLAG_LEFT;
-import static org.telegram.messenger.MessageObject.POSITION_FLAG_RIGHT;
-import static org.telegram.messenger.MessageObject.POSITION_FLAG_TOP;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.MessageObject.POSITION_FLAG_BOTTOM;
+import static org.verdgram.messenger.MessageObject.POSITION_FLAG_LEFT;
+import static org.verdgram.messenger.MessageObject.POSITION_FLAG_RIGHT;
+import static org.verdgram.messenger.MessageObject.POSITION_FLAG_TOP;
 import static org.telegram.ui.Components.UndoView.ACTION_PREVIEW_MEDIA_DESELECTED;
 
 import android.animation.Animator;
@@ -42,16 +42,16 @@ import androidx.exifinterface.media.ExifInterface;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ImageLocation;
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.VideoEditedInfo;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.ImageLocation;
+import org.verdgram.messenger.ImageReceiver;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.MediaController;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.VideoEditedInfo;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.ActionBarMenu;

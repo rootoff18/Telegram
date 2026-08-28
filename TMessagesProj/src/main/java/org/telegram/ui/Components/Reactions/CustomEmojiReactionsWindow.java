@@ -1,6 +1,6 @@
 package org.telegram.ui.Components.Reactions;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 import static org.telegram.ui.Components.ReactionsContainerLayout.TYPE_MESSAGE_EFFECTS;
 import static org.telegram.ui.Components.ReactionsContainerLayout.TYPE_STICKER_SET_EMOJI;
 import static org.telegram.ui.Components.ReactionsContainerLayout.TYPE_STORY;
@@ -39,16 +39,16 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.AnimationNotificationsLocker;
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.LiteMode;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.AnimationNotificationsLocker;
+import org.verdgram.messenger.ImageReceiver;
+import org.verdgram.messenger.LiteMode;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.Utilities;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_stars;
 import org.telegram.ui.ActionBar.BaseFragment;

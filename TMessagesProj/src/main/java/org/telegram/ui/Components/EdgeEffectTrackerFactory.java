@@ -9,7 +9,7 @@ import android.widget.EdgeEffect;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.verdgram.messenger.AndroidUtilities;
 
 import java.util.ArrayList;
 

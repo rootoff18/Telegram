@@ -23,15 +23,15 @@ import android.view.View;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.GenericProvider;
-import org.telegram.messenger.ImageLocation;
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.LiteMode;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.wallpaper.WallpaperGiftPatternPosition;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.GenericProvider;
+import org.verdgram.messenger.ImageLocation;
+import org.verdgram.messenger.ImageReceiver;
+import org.verdgram.messenger.LiteMode;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.wallpaper.WallpaperGiftPatternPosition;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.blur3.utils.BitmapChangeTracker;
 

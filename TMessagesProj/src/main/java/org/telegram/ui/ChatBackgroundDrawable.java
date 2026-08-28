@@ -20,11 +20,11 @@ import androidx.core.graphics.ColorUtils;
 
 import com.google.android.exoplayer2.util.Log;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ImageLoader;
-import org.telegram.messenger.ImageLocation;
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.UserConfig;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.ImageLoader;
+import org.verdgram.messenger.ImageLocation;
+import org.verdgram.messenger.ImageReceiver;
+import org.verdgram.messenger.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.EmojiThemes;
 import org.telegram.ui.Components.BackgroundGradientDrawable;

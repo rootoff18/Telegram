@@ -1,6 +1,6 @@
 package org.telegram.ui.bots;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -20,17 +20,17 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.ImageLocation;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.browser.Browser;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.Emoji;
+import org.verdgram.messenger.FileLoader;
+import org.verdgram.messenger.ImageLocation;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.browser.Browser;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.ChatActivity;

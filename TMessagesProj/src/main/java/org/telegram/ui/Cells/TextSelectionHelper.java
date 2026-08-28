@@ -1,7 +1,7 @@
 package org.telegram.ui.Cells;
 
 import static com.google.zxing.common.detector.MathUtils.distance;
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 import static org.telegram.ui.ActionBar.FloatingToolbar.STYLE_THEME;
 import static org.telegram.ui.ActionBar.Theme.key_chat_inTextSelectionHighlight;
 
@@ -45,17 +45,17 @@ import androidx.annotation.NonNull;
 import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LanguageDetector;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.R;
-import org.telegram.messenger.RichMessageLayout;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.ApplicationLoader;
+import org.verdgram.messenger.Emoji;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.LanguageDetector;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.RichMessageLayout;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.Utilities;
 import org.telegram.ui.ActionBar.ActionBarPopupWindow;
 import org.telegram.ui.ActionBar.FloatingActionMode;
 import org.telegram.ui.ActionBar.FloatingToolbar;

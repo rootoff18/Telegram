@@ -9,8 +9,8 @@ import android.text.style.ClickableSpan;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.Emoji;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.spoilers.SpoilersTextView;
 

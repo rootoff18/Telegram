@@ -1,6 +1,6 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -29,11 +29,11 @@ import android.widget.TextView;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LiteMode;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SharedConfig;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.LiteMode;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.SharedConfig;
 import org.telegram.ui.ActionBar.SimpleTextView;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.ArticleViewer;

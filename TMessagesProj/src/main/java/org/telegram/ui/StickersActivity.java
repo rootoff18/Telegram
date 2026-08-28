@@ -8,12 +8,12 @@
 
 package org.telegram.ui;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.LocaleController.formatNumber;
-import static org.telegram.messenger.LocaleController.getString;
-import static org.telegram.messenger.MediaDataController.TYPE_EMOJIPACKS;
-import static org.telegram.messenger.MediaDataController.TYPE_IMAGE;
-import static org.telegram.messenger.MediaDataController.TYPE_MASK;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.LocaleController.formatNumber;
+import static org.verdgram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.MediaDataController.TYPE_EMOJIPACKS;
+import static org.verdgram.messenger.MediaDataController.TYPE_IMAGE;
+import static org.verdgram.messenger.MediaDataController.TYPE_MASK;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -41,20 +41,20 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.ListUpdateCallback;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.DocumentObject;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.ImageLocation;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MediaDataController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.SvgHelper;
-import org.telegram.messenger.UserConfig;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.ApplicationLoader;
+import org.verdgram.messenger.DocumentObject;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.ImageLocation;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.MediaDataController;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.SvgHelper;
+import org.verdgram.messenger.UserConfig;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.ActionBar;

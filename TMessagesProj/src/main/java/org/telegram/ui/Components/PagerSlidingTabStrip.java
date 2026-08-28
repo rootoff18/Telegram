@@ -30,7 +30,7 @@ import androidx.core.graphics.ColorUtils;
 import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager.widget.ViewPager.OnPageChangeListener;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.verdgram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class PagerSlidingTabStrip extends HorizontalScrollView {

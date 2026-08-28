@@ -21,8 +21,8 @@ import android.graphics.drawable.NinePatchDrawable;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.SharedConfig;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.SharedConfig;
 import org.telegram.ui.Components.MotionBackgroundDrawable;
 import org.telegram.ui.Components.blur3.utils.NinePatchBuilder;
 

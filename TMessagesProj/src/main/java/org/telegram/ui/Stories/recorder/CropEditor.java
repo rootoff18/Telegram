@@ -1,7 +1,7 @@
 package org.telegram.ui.Stories.recorder;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.lerp;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -23,10 +23,10 @@ import androidx.annotation.NonNull;
 import com.google.zxing.common.detector.MathUtils;
 
 import org.checkerframework.checker.units.qual.C;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.R;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.MediaController;
+import org.verdgram.messenger.R;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.BubbleActivity;
 import org.telegram.ui.Components.AnimatedFloat;

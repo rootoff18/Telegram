@@ -7,7 +7,7 @@ import android.graphics.Paint;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.SegmentTree;
+import org.verdgram.messenger.SegmentTree;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Charts.data.ChartData;
 import org.telegram.ui.Charts.data.StackBarChartData;

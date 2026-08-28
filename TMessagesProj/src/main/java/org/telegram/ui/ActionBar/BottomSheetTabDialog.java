@@ -17,9 +17,9 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.R;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.LaunchActivity;
 

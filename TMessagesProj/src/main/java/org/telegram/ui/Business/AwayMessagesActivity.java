@@ -1,6 +1,6 @@
 package org.telegram.ui.Business;
 
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.LocaleController.getString;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -10,11 +10,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BotWebViewVibrationEffect;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.BotWebViewVibrationEffect;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.R;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_account;
 import org.telegram.ui.ActionBar.ActionBar;

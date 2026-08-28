@@ -1,7 +1,7 @@
 package org.telegram.ui.iv;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.LocaleController.getString;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -17,9 +17,9 @@ import android.view.ViewTreeObserver;
 import android.widget.FrameLayout;
 import android.widget.HorizontalScrollView;
 
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SharedConfig;
+import org.verdgram.messenger.Emoji;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.SharedConfig;
 import org.telegram.tgnet.tl.TL_iv;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.TextSelectionHelper;

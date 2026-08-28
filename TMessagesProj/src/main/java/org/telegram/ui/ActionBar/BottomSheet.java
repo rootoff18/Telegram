@@ -8,7 +8,7 @@
 
 package org.telegram.ui.ActionBar;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -59,18 +59,18 @@ import androidx.core.view.NestedScrollingParent;
 import androidx.core.view.NestedScrollingParentHelper;
 import androidx.core.view.ViewCompat;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.AnimationNotificationsLocker;
-import org.telegram.messenger.BuildConfig;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.camera.CameraView;
-import org.telegram.messenger.utils.LeakDetector;
-import org.telegram.messenger.utils.WindowVisibilityManager;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.AnimationNotificationsLocker;
+import org.verdgram.messenger.BuildConfig;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.camera.CameraView;
+import org.verdgram.messenger.utils.LeakDetector;
+import org.verdgram.messenger.utils.WindowVisibilityManager;
 import org.telegram.ui.Components.AnimatedEmojiSpan;
 import org.telegram.ui.Components.AnimationProperties;
 import org.telegram.ui.Components.Bulletin;

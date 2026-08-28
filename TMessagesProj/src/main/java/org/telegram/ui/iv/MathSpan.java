@@ -6,7 +6,7 @@ import android.graphics.Paint;
 import android.text.Spanned;
 import android.text.style.ReplacementSpan;
 
-import org.telegram.messenger.FileLog;
+import org.verdgram.messenger.FileLog;
 
 /**
  * Inline LaTeX span for the rich editor. It renders the equation as a baseline-aligned bitmap (the same way

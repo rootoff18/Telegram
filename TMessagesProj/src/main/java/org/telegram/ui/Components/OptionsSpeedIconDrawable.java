@@ -1,8 +1,8 @@
 package org.telegram.ui.Components;
 
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.dpf2;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dpf2;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -18,7 +18,7 @@ import android.view.Gravity;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.verdgram.messenger.AndroidUtilities;
 
 public class OptionsSpeedIconDrawable extends Drawable {
 

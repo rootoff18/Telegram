@@ -8,7 +8,7 @@
 
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -57,14 +57,14 @@ import android.view.ViewTreeObserver;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.XiaomiUtilities;
-import org.telegram.messenger.utils.Choreographer60FpsContent;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.BuildVars;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.XiaomiUtilities;
+import org.verdgram.messenger.utils.Choreographer60FpsContent;
 import org.telegram.ui.ActionBar.FloatingActionMode;
 import org.telegram.ui.ActionBar.FloatingToolbar;
 import org.telegram.ui.ActionBar.Theme;

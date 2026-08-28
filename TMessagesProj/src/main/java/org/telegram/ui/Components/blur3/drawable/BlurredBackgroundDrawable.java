@@ -1,6 +1,6 @@
 package org.telegram.ui.Components.blur3.drawable;
 
-import static org.telegram.messenger.AndroidUtilities.dpf2;
+import static org.verdgram.messenger.AndroidUtilities.dpf2;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;
@@ -28,7 +28,7 @@ import androidx.annotation.RequiresApi;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.math.MathUtils;
 
-import org.telegram.messenger.utils.RadiiUtils;
+import org.verdgram.messenger.utils.RadiiUtils;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.blur3.Blur3HashImpl;
 import org.telegram.ui.Components.blur3.drawable.color.BlurredBackgroundColorProvider;

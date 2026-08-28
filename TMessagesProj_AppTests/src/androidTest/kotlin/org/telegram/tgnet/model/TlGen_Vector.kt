@@ -1,6 +1,6 @@
 package org.telegram.tgnet.model
 
-import org.telegram.messenger.Utilities
+import org.verdgram.messenger.Utilities
 import org.telegram.tgnet.OutputSerializedData
 
 

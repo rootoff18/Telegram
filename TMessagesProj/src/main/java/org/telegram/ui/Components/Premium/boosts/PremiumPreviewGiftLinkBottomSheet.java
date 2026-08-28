@@ -1,8 +1,8 @@
 package org.telegram.ui.Components.Premium.boosts;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.replaceTags;
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.replaceTags;
+import static org.verdgram.messenger.LocaleController.getString;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,11 +12,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SendMessagesHelper;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.browser.Browser;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.SendMessagesHelper;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.browser.Browser;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.ActionBar.Theme;

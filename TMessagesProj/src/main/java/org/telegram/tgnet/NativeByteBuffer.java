@@ -1,8 +1,8 @@
 package org.telegram.tgnet;
 
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.BuildVars;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.Utilities;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

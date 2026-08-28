@@ -2,8 +2,8 @@ package org.telegram.ui.Cells;
 
 import android.view.View;
 
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.MessageObject;
+import org.verdgram.messenger.ImageReceiver;
+import org.verdgram.messenger.MessageObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.Reactions.ReactionsLayoutInBubble;
 

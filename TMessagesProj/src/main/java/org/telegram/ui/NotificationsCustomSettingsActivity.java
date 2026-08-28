@@ -8,14 +8,14 @@
 
 package org.telegram.ui;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.LocaleController.getString;
-import static org.telegram.messenger.NotificationsController.TYPE_CHANNEL;
-import static org.telegram.messenger.NotificationsController.TYPE_GROUP;
-import static org.telegram.messenger.NotificationsController.TYPE_PRIVATE;
-import static org.telegram.messenger.NotificationsController.TYPE_REACTIONS_MESSAGES;
-import static org.telegram.messenger.NotificationsController.TYPE_REACTIONS_STORIES;
-import static org.telegram.messenger.NotificationsController.TYPE_STORIES;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.NotificationsController.TYPE_CHANNEL;
+import static org.verdgram.messenger.NotificationsController.TYPE_GROUP;
+import static org.verdgram.messenger.NotificationsController.TYPE_PRIVATE;
+import static org.verdgram.messenger.NotificationsController.TYPE_REACTIONS_MESSAGES;
+import static org.verdgram.messenger.NotificationsController.TYPE_REACTIONS_STORIES;
+import static org.verdgram.messenger.NotificationsController.TYPE_STORIES;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -50,20 +50,20 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ChatObject;
-import org.telegram.messenger.ContactsController;
-import org.telegram.messenger.DialogObject;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MediaDataController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.NotificationsController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserObject;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.ChatObject;
+import org.verdgram.messenger.ContactsController;
+import org.verdgram.messenger.DialogObject;
+import org.verdgram.messenger.FileLoader;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.MediaDataController;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.NotificationsController;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.UserObject;
+import org.verdgram.messenger.Utilities;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.ActionBar;

@@ -1,7 +1,7 @@
 package org.telegram.ui.Components.Reactions;
 
 import static android.graphics.Canvas.ALL_SAVE_FLAG;
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -18,9 +18,9 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.R;
 import org.telegram.ui.ActionBar.Theme;
 
 public class AddReactionsSpan extends ReplacementSpan {

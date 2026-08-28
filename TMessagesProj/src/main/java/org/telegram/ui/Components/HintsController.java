@@ -2,8 +2,8 @@ package org.telegram.ui.Components;
 
 import android.content.SharedPreferences;
 
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.Utilities;
 
 public class HintsController {
     private HintsController() {

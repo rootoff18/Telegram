@@ -1,7 +1,7 @@
 package org.telegram.ui.iv;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.LocaleController.getString;
 
 import android.content.Context;
 import android.graphics.Outline;
@@ -17,8 +17,8 @@ import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.UserConfig;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.AiButtonDrawable;
 import org.telegram.ui.Components.ChatActivityEnterView;

@@ -1,7 +1,7 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.lerp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -23,9 +23,9 @@ import android.view.View;
 import androidx.annotation.Keep;
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.GenericProvider;
-import org.telegram.messenger.LocaleController;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.GenericProvider;
+import org.verdgram.messenger.LocaleController;
 import org.telegram.ui.ActionBar.MessageDrawable;
 import org.telegram.ui.ActionBar.Theme;
 

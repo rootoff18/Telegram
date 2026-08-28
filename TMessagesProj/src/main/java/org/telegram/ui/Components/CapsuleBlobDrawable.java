@@ -1,6 +1,6 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.animation.TimeInterpolator;
 import android.graphics.Canvas;
@@ -16,11 +16,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ChatObject;
-import org.telegram.messenger.LiteMode;
-import org.telegram.messenger.utils.Choreographer60FpsContent;
-import org.telegram.messenger.voip.VoIPService;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.ChatObject;
+import org.verdgram.messenger.LiteMode;
+import org.verdgram.messenger.utils.Choreographer60FpsContent;
+import org.verdgram.messenger.voip.VoIPService;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 

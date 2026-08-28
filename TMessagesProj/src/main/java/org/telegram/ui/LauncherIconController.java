@@ -4,8 +4,8 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.R;
+import org.verdgram.messenger.ApplicationLoader;
+import org.verdgram.messenger.R;
 
 public class LauncherIconController {
     public static void tryFixLauncherIconIfNeeded() {
@@ -51,7 +51,7 @@ public class LauncherIconController {
 
         public ComponentName getComponentName(Context ctx) {
             if (componentName == null) {
-                componentName = new ComponentName(ctx.getPackageName(), "org.telegram.messenger." + key);
+                componentName = new ComponentName(ctx.getPackageName(), "org.verdgram.messenger." + key);
             }
             return componentName;
         }

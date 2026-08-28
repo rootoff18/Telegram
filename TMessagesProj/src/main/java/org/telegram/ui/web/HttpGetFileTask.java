@@ -11,10 +11,10 @@ import androidx.annotation.Keep;
 
 import com.google.android.exoplayer2.util.MimeTypes;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.Utilities;
 import org.telegram.ui.Stories.recorder.StoryEntry;
 
 import java.io.BufferedInputStream;

@@ -1,7 +1,7 @@
 package org.telegram.ui.Components.spoilers;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.dpf2;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dpf2;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -37,12 +37,12 @@ import androidx.annotation.Nullable;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.math.MathUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.LiteMode;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.utils.Choreographer60FpsContent;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.Emoji;
+import org.verdgram.messenger.LiteMode;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.utils.Choreographer60FpsContent;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.CachedStaticLayout;
 import org.telegram.ui.Cells.BaseCell;

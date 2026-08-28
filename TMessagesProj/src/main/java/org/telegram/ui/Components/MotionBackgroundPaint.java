@@ -20,10 +20,10 @@ import androidx.annotation.RequiresApi;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.math.MathUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.R;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.utils.ColorShader;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.utils.ColorShader;
 import org.telegram.ui.Components.blur3.utils.BitmapChangeTracker;
 import org.telegram.ui.Components.blur3.utils.BitmapMemoizedMetadata;
 

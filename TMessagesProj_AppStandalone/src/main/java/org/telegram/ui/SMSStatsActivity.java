@@ -1,11 +1,11 @@
 package org.telegram.ui;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.dpf2;
-import static org.telegram.messenger.AndroidUtilities.isInAirplaneMode;
-import static org.telegram.messenger.LocaleController.formatPluralString;
-import static org.telegram.messenger.LocaleController.formatString;
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dpf2;
+import static org.verdgram.messenger.AndroidUtilities.isInAirplaneMode;
+import static org.verdgram.messenger.LocaleController.formatPluralString;
+import static org.verdgram.messenger.LocaleController.formatString;
+import static org.verdgram.messenger.LocaleController.getString;
 
 import android.Manifest;
 import android.content.Context;
@@ -43,15 +43,15 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.LocationController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.SMSJobController;
-import org.telegram.messenger.browser.Browser;
-import org.telegram.messenger.web.R;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.Emoji;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.LocationController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.SMSJobController;
+import org.verdgram.messenger.browser.Browser;
+import org.verdgram.messenger.web.R;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.TL_smsjobs;
@@ -163,7 +163,7 @@ public class SMSStatsActivity extends GradientHeaderActivity implements Notifica
                 default:
                 case VIEW_TYPE_SHADOW:
                     view = new TextInfoPrivacyCell(getContext());
-                    Drawable shadowDrawable = Theme.getThemedDrawable(getContext(), org.telegram.messenger.R.drawable.greydivider, Theme.getColor(Theme.key_windowBackgroundGrayShadow, resourceProvider));
+                    Drawable shadowDrawable = Theme.getThemedDrawable(getContext(), org.verdgram.messenger.R.drawable.greydivider, Theme.getColor(Theme.key_windowBackgroundGrayShadow, resourceProvider));
                     Drawable background = new ColorDrawable(Theme.getColor(Theme.key_windowBackgroundGray));
                     CombinedDrawable combinedDrawable = new CombinedDrawable(background, shadowDrawable, 0, 0);
                     combinedDrawable.setFullsize(true);
@@ -473,7 +473,7 @@ public class SMSStatsActivity extends GradientHeaderActivity implements Notifica
                             builder.getDismissRunnable().run();
                         });
                     }
-                    builder.setNegativeButton(LocaleController.getString("Cancel", org.telegram.messenger.R.string.Cancel), null);
+                    builder.setNegativeButton(LocaleController.getString("Cancel", org.verdgram.messenger.R.string.Cancel), null);
                     showDialog(builder.create());
                 } catch (Exception e) {
                     FileLog.e(e);

@@ -7,9 +7,9 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 
-import org.telegram.messenger.AccountInstance;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FeedWidgetProvider;
+import org.verdgram.messenger.AccountInstance;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.FeedWidgetProvider;
 
 public class FeedWidgetConfigActivity extends ExternalActionActivity {
 

@@ -1,11 +1,11 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.dpf2;
-import static org.telegram.messenger.AndroidUtilities.ilerp;
-import static org.telegram.messenger.AndroidUtilities.lerp;
-import static org.telegram.messenger.LocaleController.getString;
-import static org.telegram.messenger.Utilities.clamp01;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dpf2;
+import static org.verdgram.messenger.AndroidUtilities.ilerp;
+import static org.verdgram.messenger.AndroidUtilities.lerp;
+import static org.verdgram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.Utilities.clamp01;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -27,10 +27,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.Emoji;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.R;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.ProfileActivity;
 

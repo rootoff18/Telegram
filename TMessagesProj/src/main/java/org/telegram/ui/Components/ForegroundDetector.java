@@ -14,8 +14,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.SystemClock;
 
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.FileLog;
+import org.verdgram.messenger.BuildVars;
+import org.verdgram.messenger.FileLog;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 

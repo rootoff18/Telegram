@@ -1,7 +1,7 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.dpf2;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dpf2;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;
@@ -20,16 +20,16 @@ import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.math.MathUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ChatObject;
-import org.telegram.messenger.DialogObject;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.UserObject;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.utils.RadiiUtils;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.ChatObject;
+import org.verdgram.messenger.DialogObject;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.UserObject;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.utils.RadiiUtils;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.ChatMessageCell;

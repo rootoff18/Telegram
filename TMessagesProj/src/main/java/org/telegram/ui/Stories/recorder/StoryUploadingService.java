@@ -8,14 +8,14 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.NotificationsController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
+import org.verdgram.messenger.ApplicationLoader;
+import org.verdgram.messenger.BuildVars;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.NotificationsController;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.UserConfig;
 
 public class StoryUploadingService extends Service implements NotificationCenter.NotificationCenterDelegate {
 

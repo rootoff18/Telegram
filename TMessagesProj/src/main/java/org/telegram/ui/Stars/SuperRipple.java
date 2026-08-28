@@ -14,8 +14,8 @@ import androidx.annotation.RequiresApi;
 
 import com.google.zxing.common.detector.MathUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.R;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.R;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 
 import java.util.ArrayList;

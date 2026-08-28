@@ -1,10 +1,10 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.find;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.find;
 
 import android.text.TextUtils;
-import org.telegram.messenger.AndroidUtilities;
+import org.verdgram.messenger.AndroidUtilities;
 
 import org.commonmark.Extension;
 import org.commonmark.ext.gfm.strikethrough.Strikethrough;
@@ -44,11 +44,11 @@ import io.noties.markwon.html.HtmlTag;
 import io.noties.markwon.html.MarkwonHtmlParser;
 import io.noties.markwon.html.MarkwonHtmlParserImpl;
 
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.R;
+import org.verdgram.messenger.FileLoader;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.R;
 import org.telegram.tgnet.TLObject;
 import org.telegram.ui.iv.Latex;
 import org.telegram.tgnet.TLRPC;

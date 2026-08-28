@@ -13,13 +13,13 @@ import androidx.core.graphics.ColorUtils;
 
 import com.google.android.exoplayer2.util.Log;
 
-import org.telegram.messenger.DocumentObject;
-import org.telegram.messenger.ImageLocation;
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.MediaDataController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.SvgHelper;
-import org.telegram.messenger.UserConfig;
+import org.verdgram.messenger.DocumentObject;
+import org.verdgram.messenger.ImageLocation;
+import org.verdgram.messenger.ImageReceiver;
+import org.verdgram.messenger.MediaDataController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.SvgHelper;
+import org.verdgram.messenger.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 

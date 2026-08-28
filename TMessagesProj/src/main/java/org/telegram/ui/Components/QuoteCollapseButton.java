@@ -1,7 +1,7 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.LocaleController.getString;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -11,8 +11,8 @@ import android.view.View;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.R;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.R;
 
 /**
  * Reusable collapse/expand pill button: an animated "Expand"/"Collapse" label followed by a

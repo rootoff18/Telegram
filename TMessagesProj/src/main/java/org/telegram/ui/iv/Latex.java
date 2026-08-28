@@ -6,8 +6,8 @@ import android.graphics.Canvas;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
+import org.verdgram.messenger.ApplicationLoader;
+import org.verdgram.messenger.FileLog;
 
 import ru.noties.jlatexmath.JLatexMathAndroid;
 import ru.noties.jlatexmath.JLatexMathDrawable;

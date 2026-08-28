@@ -1,6 +1,6 @@
 package org.telegram.ui;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -65,20 +65,20 @@ import com.google.zxing.ResultPoint;
 import com.google.zxing.common.GlobalHistogramBinarizer;
 import com.google.zxing.qrcode.QRCodeReader;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.ImageLoader;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MrzRecognizer;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SendMessagesHelper;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.camera.CameraController;
-import org.telegram.messenger.camera.CameraSessionWrapper;
-import org.telegram.messenger.camera.CameraView;
-import org.telegram.messenger.camera.Size;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.ApplicationLoader;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.ImageLoader;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.MrzRecognizer;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.SendMessagesHelper;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.camera.CameraController;
+import org.verdgram.messenger.camera.CameraSessionWrapper;
+import org.verdgram.messenger.camera.CameraView;
+import org.verdgram.messenger.camera.Size;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.ActionBar.BottomSheet;

@@ -1,6 +1,6 @@
 package org.telegram.ui.Cells;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -14,12 +14,12 @@ import android.view.animation.OvershootInterpolator;
 
 import androidx.annotation.Nullable;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BotInlineKeyboard;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.utils.tlutils.TLKeyboardHelper;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.BotInlineKeyboard;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.utils.tlutils.TLKeyboardHelper;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_keyboard;
 import org.telegram.ui.ActionBar.Theme;

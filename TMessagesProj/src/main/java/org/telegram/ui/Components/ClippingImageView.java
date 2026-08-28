@@ -20,9 +20,9 @@ import android.graphics.Shader;
 import androidx.annotation.Keep;
 import android.view.View;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.ImageReceiver;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.ImageReceiver;
 
 import java.util.Arrays;
 

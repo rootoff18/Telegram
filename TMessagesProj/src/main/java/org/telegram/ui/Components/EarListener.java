@@ -12,13 +12,13 @@ import android.os.PowerManager;
 
 import androidx.annotation.NonNull;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.NotificationsController;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.voip.VoIPService;
+import org.verdgram.messenger.ApplicationLoader;
+import org.verdgram.messenger.BuildVars;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.MediaController;
+import org.verdgram.messenger.NotificationsController;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.voip.VoIPService;
 import org.telegram.ui.PhotoViewer;
 
 public class EarListener implements SensorEventListener {

@@ -8,7 +8,7 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.telegram.messenger.LocaleController;
+import org.verdgram.messenger.LocaleController;
 import org.telegram.tgnet.TLRPC;
 
 import java.util.ArrayList;

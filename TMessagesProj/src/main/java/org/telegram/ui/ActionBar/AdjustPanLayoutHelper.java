@@ -25,9 +25,9 @@ import org.telegram.ui.recyclerview.ChatListItemAnimator;
 
 import com.google.android.exoplayer2.util.Log;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.AnimationNotificationsLocker;
-import org.telegram.messenger.UserConfig;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.AnimationNotificationsLocker;
+import org.verdgram.messenger.UserConfig;
 import org.telegram.ui.LaunchActivity;
 
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
 package org.telegram.ui.Components.poll.attached;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -14,15 +14,15 @@ import androidx.annotation.NonNull;
 import androidx.collection.LongSparseArray;
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.DocumentObject;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.ImageLocation;
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.utils.DrawableUtils;
+import org.verdgram.messenger.ApplicationLoader;
+import org.verdgram.messenger.DocumentObject;
+import org.verdgram.messenger.FileLoader;
+import org.verdgram.messenger.ImageLocation;
+import org.verdgram.messenger.ImageReceiver;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.utils.DrawableUtils;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.CircularProgressDrawable;

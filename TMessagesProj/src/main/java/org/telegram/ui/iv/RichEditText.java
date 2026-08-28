@@ -21,8 +21,8 @@ import android.view.ViewConfiguration;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.SharedConfig;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.SharedConfig;
 import org.telegram.tgnet.tl.TL_iv;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.EditTextCaption;
@@ -53,7 +53,7 @@ public class RichEditText extends EditTextCaption {
     private Listener listener;
     private InlineButtonClickListener inlineButtonClickListener;
     private Theme.ResourcesProvider resourcesProvider;
-    private int currentAccount = org.telegram.messenger.UserConfig.selectedAccount;
+    private int currentAccount = org.verdgram.messenger.UserConfig.selectedAccount;
     private boolean ignoreTextChange;
     private boolean insertingNewline;
     private boolean softEnterNewline;

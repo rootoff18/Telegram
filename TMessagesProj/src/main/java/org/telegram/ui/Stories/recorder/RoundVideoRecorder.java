@@ -1,6 +1,6 @@
 package org.telegram.ui.Stories.recorder;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -15,11 +15,11 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ViewAnimator;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.camera.CameraController;
-import org.telegram.messenger.camera.CameraView;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.camera.CameraController;
+import org.verdgram.messenger.camera.CameraView;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 import org.telegram.ui.Components.LayoutHelper;

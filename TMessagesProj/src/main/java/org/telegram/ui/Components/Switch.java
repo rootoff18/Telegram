@@ -32,7 +32,7 @@ import android.view.accessibility.AccessibilityNodeInfo;
 
 import androidx.annotation.Keep;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.verdgram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.BaseCell;
 

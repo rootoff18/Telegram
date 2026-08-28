@@ -1,6 +1,6 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.readRes;
+import static org.verdgram.messenger.AndroidUtilities.readRes;
 
 import android.graphics.Bitmap;
 import android.graphics.Paint;
@@ -8,11 +8,11 @@ import android.text.TextUtils;
 
 import androidx.annotation.WorkerThread;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.DispatchQueuePoolBackground;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.DispatchQueuePoolBackground;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.Utilities;
 
 import java.io.File;
 

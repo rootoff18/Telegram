@@ -1,7 +1,7 @@
 package org.telegram.ui.Stories;
 
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.UserConfig;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.UserConfig;
 import org.telegram.tgnet.AbstractSerializedData;
 import org.telegram.tgnet.InputSerializedData;
 import org.telegram.tgnet.OutputSerializedData;

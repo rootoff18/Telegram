@@ -13,8 +13,8 @@ import android.os.SystemClock;
 
 import androidx.annotation.NonNull;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.R;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.R;
 
 public class ProxyDrawable extends Drawable {
 

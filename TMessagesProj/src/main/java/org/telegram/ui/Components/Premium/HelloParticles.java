@@ -9,9 +9,9 @@ import android.text.Layout;
 import android.text.StaticLayout;
 import android.text.TextPaint;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.Utilities;
 
 import java.util.ArrayList;
 import java.util.HashMap;

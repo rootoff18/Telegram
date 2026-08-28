@@ -1,10 +1,10 @@
 package org.telegram.ui.Gifts;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.formatDurationNoHours;
-import static org.telegram.messenger.LocaleController.formatNumber;
-import static org.telegram.messenger.LocaleController.formatString;
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.formatDurationNoHours;
+import static org.verdgram.messenger.LocaleController.formatNumber;
+import static org.verdgram.messenger.LocaleController.formatString;
+import static org.verdgram.messenger.LocaleController.getString;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -19,10 +19,10 @@ import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.GiftAuctionController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.utils.CountdownTimer;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.GiftAuctionController;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.utils.CountdownTimer;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.AnimatedTextView;

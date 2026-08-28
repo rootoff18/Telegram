@@ -8,9 +8,9 @@
 
 package org.telegram.ui;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.LocaleController.formatPluralString;
-import static org.telegram.messenger.LocaleController.formatString;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.LocaleController.formatPluralString;
+import static org.verdgram.messenger.LocaleController.formatString;
 import static org.telegram.ui.Components.Premium.LimitReachedBottomSheet.TYPE_BOOSTS_FOR_USERS;
 
 import android.Manifest;
@@ -93,63 +93,63 @@ import com.google.firebase.appindexing.FirebaseUserActions;
 import com.google.firebase.appindexing.builders.AssistActionBuilder;
 
 import org.telegram.PhoneFormat.PhoneFormat;
-import org.telegram.messenger.AccountInstance;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.AnimationNotificationsLocker;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.AutoDeleteMediaTask;
-import org.telegram.messenger.BackupAgent;
-import org.telegram.messenger.BetaUpdate;
-import org.telegram.messenger.BirthdayController;
-import org.telegram.messenger.BotGuardHelper;
-import org.telegram.messenger.BotWebViewVibrationEffect;
-import org.telegram.messenger.BuildConfig;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.ChannelBoostsController;
-import org.telegram.messenger.ChatObject;
-import org.telegram.messenger.ContactsController;
-import org.telegram.messenger.ContactsLoadingObserver;
-import org.telegram.messenger.DialogObject;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.FingerprintController;
-import org.telegram.messenger.FlagSecureReason;
-import org.telegram.messenger.GenericProvider;
-import org.telegram.messenger.GiftAuctionController;
-import org.telegram.messenger.LiteMode;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.LocationController;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.MediaDataController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.MessagesStorage;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.NotificationsController;
-import org.telegram.messenger.OpenAttachedMenuBotReceiver;
-import org.telegram.messenger.PushListenerController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SendMessagesHelper;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.SharedPrefsHelper;
-import org.telegram.messenger.TopicsController;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.UserObject;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.browser.Browser;
-import org.telegram.messenger.pip.PipActivityController;
-import org.telegram.messenger.pip.activity.IPipActivity;
-import org.telegram.messenger.pip.activity.IPipActivityHandler;
-import org.telegram.messenger.pip.activity.IPipActivityListener;
-import org.telegram.messenger.utils.FrameMetricsOverlayView;
-import org.telegram.messenger.utils.LeakDetector;
-import org.telegram.messenger.utils.WindowVisibilityManager;
-import org.telegram.messenger.video.VideoAds;
-import org.telegram.messenger.voip.VideoCapturerDevice;
-import org.telegram.messenger.voip.VoIPGroupNotification;
-import org.telegram.messenger.voip.VoIPPendingCall;
-import org.telegram.messenger.voip.VoIPPreNotificationService;
-import org.telegram.messenger.voip.VoIPService;
+import org.verdgram.messenger.AccountInstance;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.AnimationNotificationsLocker;
+import org.verdgram.messenger.ApplicationLoader;
+import org.verdgram.messenger.AutoDeleteMediaTask;
+import org.verdgram.messenger.BackupAgent;
+import org.verdgram.messenger.BetaUpdate;
+import org.verdgram.messenger.BirthdayController;
+import org.verdgram.messenger.BotGuardHelper;
+import org.verdgram.messenger.BotWebViewVibrationEffect;
+import org.verdgram.messenger.BuildConfig;
+import org.verdgram.messenger.BuildVars;
+import org.verdgram.messenger.ChannelBoostsController;
+import org.verdgram.messenger.ChatObject;
+import org.verdgram.messenger.ContactsController;
+import org.verdgram.messenger.ContactsLoadingObserver;
+import org.verdgram.messenger.DialogObject;
+import org.verdgram.messenger.FileLoader;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.FingerprintController;
+import org.verdgram.messenger.FlagSecureReason;
+import org.verdgram.messenger.GenericProvider;
+import org.verdgram.messenger.GiftAuctionController;
+import org.verdgram.messenger.LiteMode;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.LocationController;
+import org.verdgram.messenger.MediaController;
+import org.verdgram.messenger.MediaDataController;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.MessagesStorage;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.NotificationsController;
+import org.verdgram.messenger.OpenAttachedMenuBotReceiver;
+import org.verdgram.messenger.PushListenerController;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.SendMessagesHelper;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.SharedPrefsHelper;
+import org.verdgram.messenger.TopicsController;
+import org.verdgram.messenger.UserConfig;
+import org.verdgram.messenger.UserObject;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.browser.Browser;
+import org.verdgram.messenger.pip.PipActivityController;
+import org.verdgram.messenger.pip.activity.IPipActivity;
+import org.verdgram.messenger.pip.activity.IPipActivityHandler;
+import org.verdgram.messenger.pip.activity.IPipActivityListener;
+import org.verdgram.messenger.utils.FrameMetricsOverlayView;
+import org.verdgram.messenger.utils.LeakDetector;
+import org.verdgram.messenger.utils.WindowVisibilityManager;
+import org.verdgram.messenger.video.VideoAds;
+import org.verdgram.messenger.voip.VideoCapturerDevice;
+import org.verdgram.messenger.voip.VoIPGroupNotification;
+import org.verdgram.messenger.voip.VoIPPendingCall;
+import org.verdgram.messenger.voip.VoIPPreNotificationService;
+import org.verdgram.messenger.voip.VoIPService;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLParseException;
@@ -1748,7 +1748,7 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                     if (error) {
                         Toast.makeText(this, "Unsupported content", Toast.LENGTH_SHORT).show();
                     }
-                } else if ("org.telegram.messenger.CREATE_STICKER_PACK".equals(intent.getAction())) {
+                } else if ("org.verdgram.messenger.CREATE_STICKER_PACK".equals(intent.getAction())) {
                     try {
                         importingStickers = intent.getParcelableArrayListExtra(Intent.EXTRA_STREAM);
                         importingStickersEmoji = intent.getStringArrayListExtra("STICKER_EMOJIS");
@@ -2854,9 +2854,9 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                                             NotificationCenter.getInstance(intentAccount[0]).postNotificationName(NotificationCenter.closeChats);
                                             push_user_id = userId;
                                             String mimeType = cursor.getString(cursor.getColumnIndex(ContactsContract.Data.MIMETYPE));
-                                            if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call")) {
+                                            if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.org.verdgram.messenger.android.call")) {
                                                 audioCallUser = true;
-                                            } else if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call.video")) {
+                                            } else if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.org.verdgram.messenger.android.call.video")) {
                                                 videoCallUser = true;
                                             }
                                         }
@@ -2867,7 +2867,7 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                             }
                         }
                     }
-                } else if (intent.getAction().equals("org.telegram.messenger.OPEN_ACCOUNT")) {
+                } else if (intent.getAction().equals("org.verdgram.messenger.OPEN_ACCOUNT")) {
                     open_settings = 1;
                 } else if (intent.getAction().equals("new_dialog")) {
                     open_new_dialog = 1;

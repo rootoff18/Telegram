@@ -1,7 +1,7 @@
 package org.telegram.ui.iv;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.LocaleController.getString;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -31,18 +31,18 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.CodeHighlighting;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.AppGlobalConfig;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SharedConfig;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.CodeHighlighting;
+import org.verdgram.messenger.FileLoader;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.AppGlobalConfig;
+import org.verdgram.messenger.MediaController;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.SharedConfig;
 import org.telegram.ui.Components.ReplyMessageLine;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.Utilities;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.SerializedData;
 import org.telegram.tgnet.tl.TL_iv;
@@ -642,7 +642,7 @@ public class RichEditorListView extends UniversalRecyclerView {
             media.state = MediaUploadState.STATE_DONE;
             media.photo = photo;
             media.hasSpoiler = ((TL_iv.pageBlockPhoto) block).spoiler;
-            final TLRPC.PhotoSize big = org.telegram.messenger.FileLoader.getClosestPhotoSizeWithSize(photo.sizes, AndroidUtilities.getPhotoSize());
+            final TLRPC.PhotoSize big = org.verdgram.messenger.FileLoader.getClosestPhotoSizeWithSize(photo.sizes, AndroidUtilities.getPhotoSize());
             if (big != null) {
                 media.width = big.w;
                 media.height = big.h;

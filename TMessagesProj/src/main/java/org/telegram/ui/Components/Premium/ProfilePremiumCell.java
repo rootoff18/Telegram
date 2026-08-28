@@ -1,13 +1,13 @@
 package org.telegram.ui.Components.Premium;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.content.Context;
 import android.graphics.Canvas;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LiteMode;
-import org.telegram.messenger.utils.Choreographer60FpsContent;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.LiteMode;
+import org.verdgram.messenger.utils.Choreographer60FpsContent;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.TextCell;
 import org.telegram.ui.Stars.StarsReactionsSheet;

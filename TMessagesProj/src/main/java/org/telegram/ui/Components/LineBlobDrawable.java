@@ -6,8 +6,8 @@ import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.Path;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LiteMode;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.LiteMode;
 
 import java.util.Random;
 

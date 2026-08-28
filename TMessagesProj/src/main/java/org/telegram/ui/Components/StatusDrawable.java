@@ -11,7 +11,7 @@ package org.telegram.ui.Components;
 import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
 
-import org.telegram.messenger.utils.Choreographer60FpsContent;
+import org.verdgram.messenger.utils.Choreographer60FpsContent;
 
 public abstract class StatusDrawable extends Drawable {
     public abstract void start();

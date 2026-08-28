@@ -1,6 +1,6 @@
 package org.telegram.ui.web;
 
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.LocaleController.getString;
 
 import android.text.TextUtils;
 
@@ -9,9 +9,9 @@ import androidx.annotation.Nullable;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.Utilities;
+import org.verdgram.messenger.FileLog;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.Utilities;
 
 import java.net.URLEncoder;
 import java.util.ArrayList;

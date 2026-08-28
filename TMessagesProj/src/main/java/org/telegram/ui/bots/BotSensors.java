@@ -8,7 +8,7 @@ import android.hardware.SensorManager;
 import android.util.Log;
 
 import org.json.JSONObject;
-import org.telegram.messenger.AndroidUtilities;
+import org.verdgram.messenger.AndroidUtilities;
 import org.telegram.ui.web.BotWebViewContainer;
 
 public class BotSensors {

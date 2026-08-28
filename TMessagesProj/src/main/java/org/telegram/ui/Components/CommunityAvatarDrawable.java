@@ -1,6 +1,6 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -14,8 +14,8 @@ import android.view.Gravity;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.telegram.messenger.R;
-import org.telegram.messenger.utils.DrawableUtils;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.utils.DrawableUtils;
 import org.telegram.ui.ActionBar.Theme;
 
 public class CommunityAvatarDrawable extends Drawable {

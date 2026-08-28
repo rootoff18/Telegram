@@ -1,8 +1,8 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.dpf2;
-import static org.telegram.messenger.TranslateController.normalizeLanguage;
+import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.verdgram.messenger.AndroidUtilities.dpf2;
+import static org.verdgram.messenger.TranslateController.normalizeLanguage;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -51,19 +51,19 @@ import com.google.common.base.Charsets;
 
 import org.json.JSONArray;
 import org.json.JSONTokener;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.LanguageDetector;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.RichMessageLayout;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.TranslateController;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.XiaomiUtilities;
+import org.verdgram.messenger.AndroidUtilities;
+import org.verdgram.messenger.Emoji;
+import org.verdgram.messenger.LanguageDetector;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.MessagesController;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.RichMessageLayout;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.TranslateController;
+import org.verdgram.messenger.Utilities;
+import org.verdgram.messenger.XiaomiUtilities;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_iv;

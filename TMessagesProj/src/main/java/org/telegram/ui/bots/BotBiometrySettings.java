@@ -1,7 +1,7 @@
 package org.telegram.ui.bots;
 
-import static org.telegram.messenger.LocaleController.formatPluralString;
-import static org.telegram.messenger.LocaleController.getString;
+import static org.verdgram.messenger.LocaleController.formatPluralString;
+import static org.verdgram.messenger.LocaleController.getString;
 
 import android.content.Context;
 import android.text.SpannableStringBuilder;
@@ -11,9 +11,9 @@ import android.view.View;
 import android.widget.FrameLayout;
 
 import org.checkerframework.checker.guieffect.qual.UI;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserObject;
+import org.verdgram.messenger.LocaleController;
+import org.verdgram.messenger.R;
+import org.verdgram.messenger.UserObject;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.AlertDialog;
 import org.telegram.ui.ActionBar.BackDrawable;

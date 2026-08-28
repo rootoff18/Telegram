@@ -2,12 +2,12 @@ package org.telegram.ui.iv;
 
 import android.graphics.BitmapFactory;
 
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.VideoEditedInfo;
+import org.verdgram.messenger.FileLoader;
+import org.verdgram.messenger.MediaController;
+import org.verdgram.messenger.MessageObject;
+import org.verdgram.messenger.NotificationCenter;
+import org.verdgram.messenger.SharedConfig;
+import org.verdgram.messenger.VideoEditedInfo;
 import org.telegram.tgnet.TLRPC;
 
 import java.io.File;
