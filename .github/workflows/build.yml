@@ -82,9 +82,15 @@ jobs:
       - name: Build APK
         run: ./gradlew assembleAfatRelease --stacktrace
 
+      - name: Find APK
+        run: find . -name "*.apk" | grep -v "test\|Test" | tee /tmp/apk_paths.txt
+
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: VerdGram-APK
-          path: TMessagesProj/build/outputs/apk/**/*.apk
+          path: |
+            TMessagesProj/build/outputs/apk/afat/release/*.apk
+            TMessagesProj_App/build/outputs/apk/afat/release/*.apk
+          if-no-files-found: warn
           retention-days: 30
