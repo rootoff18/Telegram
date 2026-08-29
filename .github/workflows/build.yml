@@ -98,7 +98,7 @@ jobs:
           JSON
 
       - name: Build APK
-        run: ./gradlew assembleAfatRelease --stacktrace
+        run: ./gradlew :TMessagesProj_App:assembleAfatRelease --stacktrace
 
       - name: Find APK
         run: find . -name "*.apk" | grep -v "test\|Test" | tee /tmp/apk_paths.txt
