@@ -12,8 +12,8 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Path;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.FileLog;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.FileLog;
 
 import java.util.ArrayList;
 

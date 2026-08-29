@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -52,9 +52,9 @@ import org.telegram.SQLite.SQLiteCursor;
 import org.telegram.SQLite.SQLiteDatabase;
 import org.telegram.SQLite.SQLiteException;
 import org.telegram.SQLite.SQLitePreparedStatement;
-import org.verdgram.messenger.ringtone.RingtoneDataStore;
-import org.verdgram.messenger.ringtone.RingtoneUploader;
-import org.verdgram.messenger.utils.EphemeralMessagesHelper;
+import org.telegram.messenger.ringtone.RingtoneDataStore;
+import org.telegram.messenger.ringtone.RingtoneUploader;
+import org.telegram.messenger.utils.EphemeralMessagesHelper;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.RequestDelegate;
@@ -89,7 +89,7 @@ import org.telegram.ui.Components.URLSpanReplacement;
 import org.telegram.ui.Components.URLSpanUserMention;
 import org.telegram.ui.LaunchActivity;
 import org.telegram.ui.PremiumPreviewFragment;
-import org.verdgram.messenger.utils.tlutils.AmountUtils;
+import org.telegram.messenger.utils.tlutils.AmountUtils;
 import org.telegram.ui.Stories.StoriesStorage;
 
 import java.io.File;

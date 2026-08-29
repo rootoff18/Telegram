@@ -1,4 +1,4 @@
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
 import static org.verdgram.messenger.AndroidUtilities.cascade;
 import static org.verdgram.messenger.AndroidUtilities.dp;
@@ -10,7 +10,7 @@ import android.graphics.drawable.Drawable;
 import android.view.Gravity;
 import android.graphics.Rect;
 
-import org.verdgram.messenger.ImageReceiver;
+import org.telegram.messenger.ImageReceiver;
 
 public class DrawableUtils {
     private static final Rect tmpRect = new Rect();

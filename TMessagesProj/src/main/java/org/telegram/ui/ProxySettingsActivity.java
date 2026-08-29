@@ -43,14 +43,14 @@ import android.widget.TextView;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.SharedConfig;
-import org.verdgram.messenger.SvgHelper;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.R;
+import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.SvgHelper;
+import org.telegram.messenger.Utilities;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.ActionBarMenuItem;

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import static org.verdgram.messenger.LocaleController.formatString;
 import static org.verdgram.messenger.LocaleController.getString;
@@ -152,9 +152,9 @@ import com.google.android.gms.auth.api.phone.SmsRetrieverClient;
 import com.google.android.gms.tasks.Task;
 
 import org.telegram.PhoneFormat.PhoneFormat;
-import org.verdgram.messenger.browser.Browser;
-import org.verdgram.messenger.utils.CustomHtml;
-import org.verdgram.messenger.utils.DebugRecordingCanvas;
+import org.telegram.messenger.browser.Browser;
+import org.telegram.messenger.utils.CustomHtml;
+import org.telegram.messenger.utils.DebugRecordingCanvas;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

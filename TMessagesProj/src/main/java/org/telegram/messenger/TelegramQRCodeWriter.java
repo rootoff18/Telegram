@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import static org.verdgram.messenger.AndroidUtilities.readRes;
 

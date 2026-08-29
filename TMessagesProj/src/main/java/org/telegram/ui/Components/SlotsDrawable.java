@@ -5,13 +5,13 @@ import android.text.TextUtils;
 
 import androidx.annotation.WorkerThread;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.DownloadController;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.DownloadController;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.Utilities;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Cells.ChatMessageCell;
 

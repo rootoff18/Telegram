@@ -1,4 +1,4 @@
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
 import android.view.View;
 import android.view.Window;

@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import static org.verdgram.messenger.CacheByChatsController.KEEP_MEDIA_TYPE_STORIES;
 

@@ -25,7 +25,7 @@ import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.view.GestureDetectorCompat;
 
-import org.verdgram.messenger.R;
+import org.telegram.messenger.R;
 import org.telegram.ui.ActionBar.Theme;
 
 public class CustomPhoneKeyboardView extends ViewGroup {

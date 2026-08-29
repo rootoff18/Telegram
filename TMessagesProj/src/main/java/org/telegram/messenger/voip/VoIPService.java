@@ -6,7 +6,7 @@
  * Copyright Grishka, 2013-2016.
  */
 
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
 import static org.verdgram.messenger.MessagesController.findUpdates;
 import static org.verdgram.messenger.MessagesController.findUpdatesAndRemove;
@@ -93,31 +93,31 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 
 import org.json.JSONObject;
-import org.verdgram.messenger.AccountInstance;
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.ChatObject;
-import org.verdgram.messenger.ContactsController;
-import org.verdgram.messenger.DialogObject;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.ImageLoader;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.MediaController;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.MessagesStorage;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.NotificationsController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.SharedConfig;
-import org.verdgram.messenger.StatsController;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.UserObject;
-import org.verdgram.messenger.Utilities;
-import org.verdgram.messenger.XiaomiUtilities;
-import org.verdgram.messenger.utils.tlutils.TlUtils;
+import org.telegram.messenger.AccountInstance;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.ChatObject;
+import org.telegram.messenger.ContactsController;
+import org.telegram.messenger.DialogObject;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.ImageLoader;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MediaController;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.MessagesStorage;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.NotificationsController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.StatsController;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.UserObject;
+import org.telegram.messenger.Utilities;
+import org.telegram.messenger.XiaomiUtilities;
+import org.telegram.messenger.utils.tlutils.TlUtils;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.SerializedData;
 import org.telegram.tgnet.TLObject;

@@ -1,4 +1,4 @@
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
 import android.text.Editable;
 import android.text.TextUtils;

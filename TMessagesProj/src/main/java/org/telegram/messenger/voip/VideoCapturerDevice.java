@@ -1,4 +1,4 @@
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -11,9 +11,9 @@ import android.os.HandlerThread;
 import android.view.Display;
 import android.view.WindowManager;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.FileLog;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.FileLog;
 import org.webrtc.Camera1Enumerator;
 import org.webrtc.Camera2Enumerator;
 import org.webrtc.CameraEnumerator;

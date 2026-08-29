@@ -19,14 +19,14 @@ import android.widget.FrameLayout;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.DownloadController;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.ImageLoader;
-import org.verdgram.messenger.MediaController;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.DownloadController;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.ImageLoader;
+import org.telegram.messenger.MediaController;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_iv;
 import org.telegram.ui.ActionBar.Theme;

@@ -18,7 +18,7 @@ import android.view.View;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
+import org.telegram.messenger.AndroidUtilities;
 import org.telegram.ui.Components.AnimatedFloat;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 

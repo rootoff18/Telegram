@@ -12,8 +12,8 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.view.View;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.LiteMode;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.LiteMode;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 

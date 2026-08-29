@@ -1,4 +1,4 @@
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
 import androidx.annotation.FloatRange;
 import androidx.core.math.MathUtils;

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -19,9 +19,9 @@ import androidx.collection.LongSparseArray;
 
 import com.google.android.exoplayer2.util.Log;
 
-import org.verdgram.messenger.utils.tlutils.TlUtils;
-import org.verdgram.messenger.voip.Instance;
-import org.verdgram.messenger.voip.VoIPService;
+import org.telegram.messenger.utils.tlutils.TlUtils;
+import org.telegram.messenger.voip.Instance;
+import org.telegram.messenger.voip.VoIPService;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_account;

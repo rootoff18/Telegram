@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package org.verdgram.messenger.support.customtabsclient.shared;
+package org.telegram.messenger.support.customtabsclient.shared;
 
 import android.content.ComponentName;
 
-import org.verdgram.messenger.support.customtabs.CustomTabsClient;
-import org.verdgram.messenger.support.customtabs.CustomTabsServiceConnection;
+import org.telegram.messenger.support.customtabs.CustomTabsClient;
+import org.telegram.messenger.support.customtabs.CustomTabsServiceConnection;
 
 import java.lang.ref.WeakReference;
 

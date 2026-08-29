@@ -36,17 +36,17 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.AppGlobalConfig;
-import org.verdgram.messenger.BillingController;
-import org.verdgram.messenger.DialogObject;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.SendMessagesHelper;
-import org.verdgram.messenger.Utilities;
-import org.verdgram.messenger.browser.Browser;
-import org.verdgram.messenger.utils.tlutils.AmountUtils;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.AppGlobalConfig;
+import org.telegram.messenger.BillingController;
+import org.telegram.messenger.DialogObject;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.SendMessagesHelper;
+import org.telegram.messenger.Utilities;
+import org.telegram.messenger.browser.Browser;
+import org.telegram.messenger.utils.tlutils.AmountUtils;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

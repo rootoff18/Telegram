@@ -21,11 +21,11 @@ import android.view.Gravity;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ContactsController;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ContactsController;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.UserConfig;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Stories.recorder.ButtonWithCounterView;
 

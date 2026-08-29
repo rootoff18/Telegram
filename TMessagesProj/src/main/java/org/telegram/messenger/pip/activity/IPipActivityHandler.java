@@ -1,4 +1,4 @@
-package org.verdgram.messenger.pip.activity;
+package org.telegram.messenger.pip.activity;
 
 import android.app.PictureInPictureParams;
 import android.app.PictureInPictureUiState;

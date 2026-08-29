@@ -25,10 +25,10 @@ import android.view.View;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.math.MathUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.MediaController;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.MediaController;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.Utilities;
 import org.telegram.ui.ActionBar.Theme;
 
 import java.util.ArrayList;

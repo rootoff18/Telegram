@@ -12,12 +12,12 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.NotificationsController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.NotificationsController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.Utilities;
 import org.telegram.ui.ActionBar.ActionBarMenuItem;
 import org.telegram.ui.ActionBar.ActionBarMenuSubItem;
 import org.telegram.ui.ActionBar.ActionBarPopupWindow;

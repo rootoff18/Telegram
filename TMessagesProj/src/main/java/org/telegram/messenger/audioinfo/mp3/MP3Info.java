@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.verdgram.messenger.audioinfo.mp3;
+package org.telegram.messenger.audioinfo.mp3;
 
-import org.verdgram.messenger.audioinfo.AudioInfo;
+import org.telegram.messenger.audioinfo.AudioInfo;
 
 import java.io.EOFException;
 import java.io.IOException;

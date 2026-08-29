@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -28,7 +28,7 @@ import androidx.annotation.RequiresApi;
 import androidx.annotation.RequiresPermission;
 
 import org.telegram.PhoneFormat.PhoneFormat;
-import org.verdgram.messenger.web.R;
+import org.telegram.messenger.web.R;
 import org.telegram.tgnet.AbstractSerializedData;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.InputSerializedData;

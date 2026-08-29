@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import static org.verdgram.messenger.AndroidUtilities.dp;
 import static org.verdgram.messenger.AndroidUtilities.formatWholeNumber;
@@ -33,7 +33,7 @@ import android.util.Xml;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.StringRes;
 
-import org.verdgram.messenger.time.FastDateFormat;
+import org.telegram.messenger.time.FastDateFormat;
 import org.telegram.tgnet.Vector;
 import org.telegram.ui.Components.TypefaceSpan;
 import org.telegram.ui.Stars.StarsController;

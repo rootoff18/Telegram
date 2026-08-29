@@ -19,12 +19,12 @@ import android.widget.PopupWindow;
 
 import com.google.zxing.common.detector.MathUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.CompoundEmoji;
-import org.verdgram.messenger.Emoji;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.CompoundEmoji;
+import org.telegram.messenger.Emoji;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.R;
+import org.telegram.messenger.Utilities;
 import org.telegram.ui.ActionBar.Theme;
 
 import java.lang.reflect.Field;

@@ -1,4 +1,4 @@
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_phone;

@@ -5,7 +5,7 @@ import static org.verdgram.messenger.SharedConfig.getDevicePerformanceClass;
 
 import android.view.View;
 
-import org.verdgram.messenger.ImageLoader;
+import org.telegram.messenger.ImageLoader;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 public interface FileLoadOperationStream {
     void newDataAvailable();

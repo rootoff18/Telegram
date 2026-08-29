@@ -14,12 +14,12 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.ImageLoader;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.SharedConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.ImageLoader;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.SharedConfig;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.IUpdateLayout;
 

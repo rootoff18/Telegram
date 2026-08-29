@@ -3,7 +3,7 @@ package org.telegram.ui.Charts.data;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.verdgram.messenger.SegmentTree;
+import org.telegram.messenger.SegmentTree;
 
 public class StackBarChartData extends ChartData {
 

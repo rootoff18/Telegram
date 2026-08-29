@@ -16,9 +16,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.utils.DrawableUtils;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.R;
+import org.telegram.messenger.utils.DrawableUtils;
 import org.telegram.ui.ActionBar.Theme;
 
 public class CommunityArrowDrawable extends Drawable {

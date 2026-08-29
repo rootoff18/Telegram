@@ -10,13 +10,13 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.DocumentObject;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.ImageLoader;
-import org.verdgram.messenger.ImageLocation;
-import org.verdgram.messenger.ImageReceiver;
-import org.verdgram.messenger.SvgHelper;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.DocumentObject;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.ImageLoader;
+import org.telegram.messenger.ImageLocation;
+import org.telegram.messenger.ImageReceiver;
+import org.telegram.messenger.SvgHelper;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 

@@ -15,9 +15,9 @@ import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.MessagesStorage;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.MessagesStorage;
+import org.telegram.messenger.Utilities;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.PeerColorActivity;
 

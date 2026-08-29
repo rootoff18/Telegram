@@ -1,4 +1,4 @@
-package org.verdgram.messenger.car;
+package org.telegram.messenger.car;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -32,23 +32,23 @@ import androidx.core.graphics.drawable.IconCompat;
 import androidx.lifecycle.DefaultLifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 
-import org.verdgram.messenger.AccountInstance;
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.ChatObject;
-import org.verdgram.messenger.ContactsController;
-import org.verdgram.messenger.DialogObject;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.NotificationsController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.SendMessagesHelper;
-import org.verdgram.messenger.TelegramMediaSession;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.UserObject;
+import org.telegram.messenger.AccountInstance;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.ChatObject;
+import org.telegram.messenger.ContactsController;
+import org.telegram.messenger.DialogObject;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.NotificationsController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.SendMessagesHelper;
+import org.telegram.messenger.TelegramMediaSession;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.UserObject;
 import org.telegram.tgnet.TLRPC;
 
 import java.io.File;

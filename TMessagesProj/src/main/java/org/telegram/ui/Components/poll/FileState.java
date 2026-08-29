@@ -5,9 +5,9 @@ import android.text.TextUtils;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.ImageLoader;
-import org.verdgram.messenger.MessageObject;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.ImageLoader;
+import org.telegram.messenger.MessageObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.Text;
 

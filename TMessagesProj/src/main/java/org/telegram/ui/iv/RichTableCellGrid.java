@@ -17,7 +17,7 @@ import org.telegram.tgnet.tl.TL_iv;
 import org.telegram.ui.Components.AnimatedFloat;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 
-import org.verdgram.messenger.AndroidUtilities;
+import org.telegram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class RichTableCellGrid extends ViewGroup {

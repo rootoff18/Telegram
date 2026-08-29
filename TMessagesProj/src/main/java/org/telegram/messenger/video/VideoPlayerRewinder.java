@@ -1,4 +1,4 @@
-package org.verdgram.messenger.video;
+package org.telegram.messenger.video;
 
 import static org.verdgram.messenger.AndroidUtilities.dp;
 
@@ -6,8 +6,8 @@ import android.util.Log;
 
 import com.google.android.exoplayer2.C;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.Utilities;
 import org.telegram.ui.Components.PhotoViewerWebView;
 import org.telegram.ui.Components.SeekSpeedDrawable;
 import org.telegram.ui.Components.VideoForwardDrawable;

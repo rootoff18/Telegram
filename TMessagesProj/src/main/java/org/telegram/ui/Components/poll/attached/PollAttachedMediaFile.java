@@ -18,11 +18,11 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.MediaController;
-import org.verdgram.messenger.MessageObject;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.MediaController;
+import org.telegram.messenger.MessageObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.MediaActionDrawable;

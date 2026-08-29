@@ -1,11 +1,11 @@
-package org.verdgram.messenger.postdrawcompat;
+package org.telegram.messenger.postdrawcompat;
 
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import org.verdgram.messenger.R;
+import org.telegram.messenger.R;
 
 import java.util.ArrayList;
 

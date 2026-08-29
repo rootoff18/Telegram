@@ -1,7 +1,7 @@
 package org.telegram.ui.Components.inset;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.Utilities;
 import org.telegram.ui.ActionBar.AdjustPanLayoutHelper;
 
 class KeyboardState {

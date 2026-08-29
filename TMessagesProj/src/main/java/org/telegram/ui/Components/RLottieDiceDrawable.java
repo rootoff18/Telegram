@@ -8,11 +8,11 @@ import android.text.TextUtils;
 
 import androidx.annotation.WorkerThread;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.DispatchQueuePoolBackground;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.DispatchQueuePoolBackground;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.R;
+import org.telegram.messenger.Utilities;
 
 import java.io.File;
 

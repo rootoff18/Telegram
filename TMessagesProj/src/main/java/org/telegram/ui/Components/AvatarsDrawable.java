@@ -16,16 +16,16 @@ import android.view.animation.Interpolator;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.AccountInstance;
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.DialogObject;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.ImageLocation;
-import org.verdgram.messenger.ImageReceiver;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.voip.VoIPService;
+import org.telegram.messenger.AccountInstance;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.DialogObject;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.ImageLocation;
+import org.telegram.messenger.ImageReceiver;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.voip.VoIPService;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

@@ -17,9 +17,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.SvgHelper;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.R;
+import org.telegram.messenger.SvgHelper;
 import org.telegram.ui.ActionBar.Theme;
 
 import java.util.ArrayList;

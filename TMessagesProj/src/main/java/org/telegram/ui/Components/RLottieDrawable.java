@@ -33,16 +33,16 @@ import androidx.annotation.RawRes;
 import androidx.annotation.UiThread;
 import androidx.annotation.WorkerThread;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.BuildConfig;
-import org.verdgram.messenger.DispatchQueue;
-import org.verdgram.messenger.DispatchQueuePoolBackground;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.ImageReceiver;
-import org.verdgram.messenger.ResLottieMeta;
-import org.verdgram.messenger.Utilities;
-import org.verdgram.messenger.utils.BitmapsCache;
-import org.verdgram.messenger.utils.Choreographer60FpsContent;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.BuildConfig;
+import org.telegram.messenger.DispatchQueue;
+import org.telegram.messenger.DispatchQueuePoolBackground;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.ImageReceiver;
+import org.telegram.messenger.ResLottieMeta;
+import org.telegram.messenger.Utilities;
+import org.telegram.messenger.utils.BitmapsCache;
+import org.telegram.messenger.utils.Choreographer60FpsContent;
 import org.telegram.ui.BubbleActivity;
 import org.telegram.ui.LaunchActivity;
 

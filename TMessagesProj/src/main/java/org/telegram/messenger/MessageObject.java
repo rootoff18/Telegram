@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import static org.verdgram.messenger.AndroidUtilities.dp;
 import static org.verdgram.messenger.AndroidUtilities.find;
@@ -50,11 +50,11 @@ import androidx.collection.LongSparseArray;
 import androidx.core.graphics.ColorUtils;
 
 import org.telegram.PhoneFormat.PhoneFormat;
-import org.verdgram.messenger.browser.Browser;
-import org.verdgram.messenger.ringtone.RingtoneDataStore;
-import org.verdgram.messenger.utils.tlutils.AmountUtils;
-import org.verdgram.messenger.utils.tlutils.TLKeyboardHelper;
-import org.verdgram.messenger.utils.tlutils.TlUtils;
+import org.telegram.messenger.browser.Browser;
+import org.telegram.messenger.ringtone.RingtoneDataStore;
+import org.telegram.messenger.utils.tlutils.AmountUtils;
+import org.telegram.messenger.utils.tlutils.TLKeyboardHelper;
+import org.telegram.messenger.utils.tlutils.TlUtils;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.SerializedData;
 import org.telegram.tgnet.TLObject;

@@ -1,4 +1,4 @@
-package org.verdgram.messenger.audioinfo;
+package org.telegram.messenger.audioinfo;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -6,7 +6,7 @@ import android.media.MediaMetadataRetriever;
 
 import com.google.android.exoplayer2.MetadataRetriever;
 
-import org.verdgram.messenger.FileLog;
+import org.telegram.messenger.FileLog;
 
 import java.io.File;
 

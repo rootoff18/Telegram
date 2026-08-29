@@ -8,8 +8,8 @@ import android.widget.FrameLayout;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.Utilities;
 import org.telegram.ui.Cells.DialogCell;
 import org.telegram.ui.Components.AnimatedTextView;
 

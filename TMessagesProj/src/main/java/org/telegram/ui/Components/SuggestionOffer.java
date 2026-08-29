@@ -13,13 +13,13 @@ import android.view.View;
 
 import androidx.annotation.StringRes;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.DialogObject;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.MessageSuggestionParams;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.DialogObject;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.MessageSuggestionParams;
+import org.telegram.messenger.R;
+import org.telegram.messenger.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 

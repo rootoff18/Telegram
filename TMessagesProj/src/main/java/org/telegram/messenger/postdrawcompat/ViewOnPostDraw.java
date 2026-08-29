@@ -1,4 +1,4 @@
-package org.verdgram.messenger.postdrawcompat;
+package org.telegram.messenger.postdrawcompat;
 
 import android.content.Context;
 import android.graphics.Canvas;

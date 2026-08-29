@@ -19,15 +19,15 @@ import androidx.annotation.Nullable;
 
 import com.google.android.gms.wearable.Wearable;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.Emoji;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.MediaDataController;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.Emoji;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.MediaDataController;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.R;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.UserConfig;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

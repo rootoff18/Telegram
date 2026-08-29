@@ -8,12 +8,12 @@ import android.opengl.GLES20;
 import android.opengl.GLUtils;
 import android.os.Looper;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.DispatchQueue;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.SharedConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.DispatchQueue;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.R;
+import org.telegram.messenger.SharedConfig;
 import org.telegram.ui.Stories.recorder.StoryEntry;
 
 import java.nio.ByteBuffer;

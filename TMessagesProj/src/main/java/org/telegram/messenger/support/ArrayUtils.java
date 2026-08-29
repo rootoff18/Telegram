@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.verdgram.messenger.support;
+package org.telegram.messenger.support;
 
 import java.lang.reflect.Array;
 

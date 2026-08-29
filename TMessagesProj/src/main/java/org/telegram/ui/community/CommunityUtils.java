@@ -16,14 +16,14 @@ import android.widget.TextView;
 
 import androidx.collection.LongSparseArray;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ChatObject;
-import org.verdgram.messenger.DialogObject;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ChatObject;
+import org.telegram.messenger.DialogObject;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.UserConfig;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

@@ -14,11 +14,11 @@ import android.view.View;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ChatObject;
-import org.verdgram.messenger.LiteMode;
-import org.verdgram.messenger.Utilities;
-import org.verdgram.messenger.voip.VoIPService;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ChatObject;
+import org.telegram.messenger.LiteMode;
+import org.telegram.messenger.Utilities;
+import org.telegram.messenger.voip.VoIPService;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 

@@ -8,10 +8,10 @@ import android.view.View;
 
 import androidx.core.content.ContextCompat;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ImageReceiver;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ImageReceiver;
+import org.telegram.messenger.R;
+import org.telegram.messenger.UserConfig;
 import org.telegram.tgnet.TLObject;
 import org.telegram.ui.Components.AvatarDrawable;
 import org.telegram.ui.Components.PhotoCropView;

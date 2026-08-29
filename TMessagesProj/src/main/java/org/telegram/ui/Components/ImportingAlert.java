@@ -23,11 +23,11 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.SendMessagesHelper;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.R;
+import org.telegram.messenger.SendMessagesHelper;
 import org.telegram.ui.ActionBar.BottomSheet;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.ChatActivity;

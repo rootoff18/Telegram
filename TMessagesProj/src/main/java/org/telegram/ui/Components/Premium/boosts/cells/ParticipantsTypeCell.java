@@ -5,12 +5,12 @@ import static org.verdgram.messenger.AndroidUtilities.dp;
 import android.annotation.SuppressLint;
 import android.content.Context;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ChatObject;
-import org.verdgram.messenger.Emoji;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.UserObject;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ChatObject;
+import org.telegram.messenger.Emoji;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.UserObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.AvatarDrawable;

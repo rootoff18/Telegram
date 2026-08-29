@@ -31,12 +31,12 @@ import android.view.animation.LinearInterpolator;
 import android.view.inputmethod.EditorInfo;
 import android.widget.ScrollView;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.Utilities;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;

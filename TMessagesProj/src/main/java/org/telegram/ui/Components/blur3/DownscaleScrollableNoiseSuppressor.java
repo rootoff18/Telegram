@@ -14,9 +14,9 @@ import android.os.Build;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import org.verdgram.messenger.LiteMode;
-import org.verdgram.messenger.MediaDataController;
-import org.verdgram.messenger.utils.RenderNodeEffects;
+import org.telegram.messenger.LiteMode;
+import org.telegram.messenger.MediaDataController;
+import org.telegram.messenger.utils.RenderNodeEffects;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.blur3.capture.IBlur3Capture;
 

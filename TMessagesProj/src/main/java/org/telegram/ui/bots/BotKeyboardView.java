@@ -30,12 +30,12 @@ import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.Emoji;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.utils.tlutils.TLKeyboardHelper;
-import org.verdgram.messenger.utils.tlutils.TlUtils;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.Emoji;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.R;
+import org.telegram.messenger.utils.tlutils.TLKeyboardHelper;
+import org.telegram.messenger.utils.tlutils.TlUtils;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_keyboard;
 import org.telegram.ui.ActionBar.Theme;

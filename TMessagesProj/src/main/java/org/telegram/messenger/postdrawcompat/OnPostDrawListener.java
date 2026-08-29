@@ -1,4 +1,4 @@
-package org.verdgram.messenger.postdrawcompat;
+package org.telegram.messenger.postdrawcompat;
 
 public interface OnPostDrawListener {
     void onPostDraw();

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import static org.verdgram.messenger.AndroidUtilities.dp;
 import static org.verdgram.messenger.LocaleController.getString;
@@ -55,14 +55,14 @@ import org.telegram.SQLite.SQLiteCursor;
 import org.telegram.SQLite.SQLiteDatabase;
 import org.telegram.SQLite.SQLiteException;
 import org.telegram.SQLite.SQLitePreparedStatement;
-import org.verdgram.messenger.browser.Browser;
-import org.verdgram.messenger.support.LongSparseIntArray;
-import org.verdgram.messenger.support.LongSparseLongArray;
-import org.verdgram.messenger.utils.EphemeralMessagesHelper;
-import org.verdgram.messenger.voip.GroupCallMessagesController;
-import org.verdgram.messenger.voip.VoIPDebugToSend;
-import org.verdgram.messenger.voip.VoIPPreNotificationService;
-import org.verdgram.messenger.voip.VoIPService;
+import org.telegram.messenger.browser.Browser;
+import org.telegram.messenger.support.LongSparseIntArray;
+import org.telegram.messenger.support.LongSparseLongArray;
+import org.telegram.messenger.utils.EphemeralMessagesHelper;
+import org.telegram.messenger.voip.GroupCallMessagesController;
+import org.telegram.messenger.voip.VoIPDebugToSend;
+import org.telegram.messenger.voip.VoIPPreNotificationService;
+import org.telegram.messenger.voip.VoIPService;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.RequestDelegate;

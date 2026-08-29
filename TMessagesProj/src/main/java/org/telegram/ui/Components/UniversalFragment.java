@@ -9,8 +9,8 @@ import android.widget.FrameLayout;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.R;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.R;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.AdjustPanLayoutHelper;
 import org.telegram.ui.ActionBar.AlertDialog;

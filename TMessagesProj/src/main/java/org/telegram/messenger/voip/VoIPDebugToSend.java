@@ -1,14 +1,14 @@
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
 import static org.verdgram.messenger.voip.VoIPService.getStringFromFile;
 
 import android.text.TextUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.Utilities;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_phone;

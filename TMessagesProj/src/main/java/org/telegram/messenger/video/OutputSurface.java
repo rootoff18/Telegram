@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2020.
  */
 
-package org.verdgram.messenger.video;
+package org.telegram.messenger.video;
 
 import android.graphics.SurfaceTexture;
 import android.opengl.EGL14;
@@ -18,9 +18,9 @@ import android.opengl.GLES20;
 import android.os.Handler;
 import android.view.Surface;
 
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.MediaController;
-import org.verdgram.messenger.VideoEditedInfo;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.MediaController;
+import org.telegram.messenger.VideoEditedInfo;
 import org.telegram.ui.Stories.recorder.StoryEntry;
 
 import java.util.ArrayList;

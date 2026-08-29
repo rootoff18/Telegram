@@ -33,13 +33,13 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.browser.Browser;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.browser.Browser;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_stories;
 import org.telegram.ui.ActionBar.BaseFragment;

@@ -1,5 +1,5 @@
 // FrameMetricsOverlayView.java
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
 import static org.verdgram.messenger.AndroidUtilities.dp;
 
@@ -24,7 +24,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import org.verdgram.messenger.AndroidUtilities;
+import org.telegram.messenger.AndroidUtilities;
 
 import java.util.Locale;
 import java.util.concurrent.atomic.AtomicBoolean;

@@ -9,9 +9,9 @@ import androidx.annotation.Nullable;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.SharedConfig;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.Utilities;
 
 import java.net.URLEncoder;
 import java.util.ArrayList;

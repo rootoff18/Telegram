@@ -1,4 +1,4 @@
-package org.verdgram.messenger.video.resample;
+package org.telegram.messenger.video.resample;
 
 import androidx.annotation.NonNull;
 

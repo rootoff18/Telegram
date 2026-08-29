@@ -20,8 +20,8 @@ import android.widget.TextView;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.ImageLocation;
-import org.verdgram.messenger.LocaleController;
+import org.telegram.messenger.ImageLocation;
+import org.telegram.messenger.LocaleController;
 import org.telegram.ui.Components.AnimatedEmojiSpan;
 import org.telegram.ui.Components.BackupImageView;
 import org.telegram.ui.Components.CheckBox2;

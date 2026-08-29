@@ -30,12 +30,12 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.CodeHighlighting;
-import org.verdgram.messenger.Emoji;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.SharedConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.CodeHighlighting;
+import org.telegram.messenger.Emoji;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.R;
+import org.telegram.messenger.SharedConfig;
 import org.telegram.tgnet.tl.TL_iv;
 import org.telegram.ui.ActionBar.FloatingToolbar;
 import org.telegram.ui.ActionBar.Theme;

@@ -1,4 +1,4 @@
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -8,13 +8,13 @@ import android.os.SystemClock;
 import com.google.android.exoplayer2.util.Log;
 import com.google.common.util.concurrent.AtomicDouble;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.DispatchQueuePoolBackground;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.SharedConfig;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.DispatchQueuePoolBackground;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.Utilities;
 import org.telegram.ui.Components.RLottieDrawable;
 
 import java.io.File;

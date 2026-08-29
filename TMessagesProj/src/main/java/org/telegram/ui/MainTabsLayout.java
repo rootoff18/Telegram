@@ -20,7 +20,7 @@ import androidx.dynamicanimation.animation.SpringForce;
 
 import android.util.Log;
 
-import org.verdgram.messenger.AndroidUtilities;
+import org.telegram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.AnimatedLinearLayout;
 import org.telegram.ui.Components.CubicBezierInterpolator;

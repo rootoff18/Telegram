@@ -5,8 +5,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.exoplayer2.util.Log;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.FileLog;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.FileLog;
 
 public class ChatListViewPaddingsAnimator {
     private final RecyclerView recyclerView;

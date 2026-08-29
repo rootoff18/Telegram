@@ -10,9 +10,9 @@ import android.graphics.PointF;
 import android.graphics.RectF;
 import android.view.ViewGroup;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.MediaDataController;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.MediaDataController;
+import org.telegram.messenger.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.AnimatedFloat;
 import org.telegram.ui.Components.CubicBezierInterpolator;

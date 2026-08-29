@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import static org.verdgram.messenger.NotificationsController.TYPE_PRIVATE;
 import static org.verdgram.messenger.NotificationsController.TYPE_REACTIONS_MESSAGES;

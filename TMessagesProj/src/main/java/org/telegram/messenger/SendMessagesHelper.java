@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.annotation.SuppressLint;
 import android.content.ClipDescription;
@@ -52,12 +52,12 @@ import androidx.collection.LongSparseArray;
 import androidx.core.view.inputmethod.InputContentInfoCompat;
 
 import org.json.JSONObject;
-import org.verdgram.messenger.audioinfo.AudioInfo;
-import org.verdgram.messenger.support.SparseLongArray;
-import org.verdgram.messenger.utils.EphemeralMessagesHelper;
-import org.verdgram.messenger.utils.tlutils.AmountUtils;
-import org.verdgram.messenger.utils.tlutils.TLKeyboardHelper;
-import org.verdgram.messenger.utils.tlutils.TlUtils;
+import org.telegram.messenger.audioinfo.AudioInfo;
+import org.telegram.messenger.support.SparseLongArray;
+import org.telegram.messenger.utils.EphemeralMessagesHelper;
+import org.telegram.messenger.utils.tlutils.AmountUtils;
+import org.telegram.messenger.utils.tlutils.TLKeyboardHelper;
+import org.telegram.messenger.utils.tlutils.TlUtils;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.RequestDelegate;

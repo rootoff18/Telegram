@@ -1,4 +1,4 @@
-package org.verdgram.messenger.pip.utils;
+package org.telegram.messenger.pip.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,8 +11,8 @@ import android.view.WindowManager;
 
 import androidx.core.math.MathUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.pip.PipSource;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.pip.PipSource;
 
 public class PipUtils {
     public static final String TAG = "PIP_DEBUG";

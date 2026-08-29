@@ -1,4 +1,4 @@
-package org.verdgram.messenger.pip;
+package org.telegram.messenger.pip;
 
 import android.app.Activity;
 import android.support.v4.media.session.MediaSessionCompat;
@@ -10,13 +10,13 @@ import androidx.annotation.Nullable;
 
 import com.google.android.exoplayer2.ext.mediasession.MediaSessionConnector;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.BuildConfig;
-import org.verdgram.messenger.pip.activity.IPipActivityActionListener;
-import org.verdgram.messenger.pip.activity.IPipActivityAnimationListener;
-import org.verdgram.messenger.pip.activity.IPipActivityHandler;
-import org.verdgram.messenger.pip.activity.IPipActivityListener;
-import org.verdgram.messenger.pip.utils.PipUtils;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.BuildConfig;
+import org.telegram.messenger.pip.activity.IPipActivityActionListener;
+import org.telegram.messenger.pip.activity.IPipActivityAnimationListener;
+import org.telegram.messenger.pip.activity.IPipActivityHandler;
+import org.telegram.messenger.pip.activity.IPipActivityListener;
+import org.telegram.messenger.pip.utils.PipUtils;
 
 import java.util.HashMap;
 

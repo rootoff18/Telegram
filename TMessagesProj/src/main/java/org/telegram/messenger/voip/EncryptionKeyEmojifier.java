@@ -1,4 +1,4 @@
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
 /**
  * Created by grishka on 13.03.17.

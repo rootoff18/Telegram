@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -16,8 +16,8 @@ import android.graphics.SurfaceTexture;
 import android.text.TextUtils;
 import android.view.View;
 
-import org.verdgram.messenger.video.MediaCodecPlayer;
-import org.verdgram.messenger.video.MediaCodecVideoConvertor;
+import org.telegram.messenger.video.MediaCodecPlayer;
+import org.telegram.messenger.video.MediaCodecVideoConvertor;
 import org.telegram.tgnet.AbstractSerializedData;
 import org.telegram.tgnet.InputSerializedData;
 import org.telegram.tgnet.OutputSerializedData;

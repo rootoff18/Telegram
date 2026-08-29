@@ -14,14 +14,14 @@ import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.Emoji;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.ImageLocation;
-import org.verdgram.messenger.MediaDataController;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.SharedConfig;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.Emoji;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.ImageLocation;
+import org.telegram.messenger.MediaDataController;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.EmojiReplacementCell;

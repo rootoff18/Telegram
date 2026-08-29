@@ -1,6 +1,6 @@
-package org.verdgram.messenger.pip.activity;
+package org.telegram.messenger.pip.activity;
 
-import org.verdgram.messenger.pip.PipActivityController;
+import org.telegram.messenger.pip.PipActivityController;
 
 public interface IPipActivity {
     PipActivityController getPipController();

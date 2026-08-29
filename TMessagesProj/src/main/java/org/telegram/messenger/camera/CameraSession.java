@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger.camera;
+package org.telegram.messenger.camera;
 
 import android.app.Activity;
 import android.content.Context;
@@ -22,9 +22,9 @@ import android.view.OrientationEventListener;
 import android.view.Surface;
 import android.view.WindowManager;
 
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.FileLog;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.FileLog;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -13,7 +13,7 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.utils.DrawableUtils;
+import org.telegram.messenger.utils.DrawableUtils;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 import org.telegram.ui.Components.TypingDotsDrawable;

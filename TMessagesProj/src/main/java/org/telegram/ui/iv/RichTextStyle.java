@@ -7,8 +7,8 @@ import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 import android.text.style.CharacterStyle;
 
-import org.verdgram.messenger.Emoji;
-import org.verdgram.messenger.SharedConfig;
+import org.telegram.messenger.Emoji;
+import org.telegram.messenger.SharedConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_iv;
 import org.telegram.ui.ActionBar.Theme;

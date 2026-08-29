@@ -4,8 +4,8 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.R;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.R;
 
 public class LauncherIconController {
     public static void tryFixLauncherIconIfNeeded() {

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import static org.verdgram.messenger.MessagesController.LOAD_AROUND_DATE;
 import static org.verdgram.messenger.MessagesController.LOAD_AROUND_MESSAGE;
@@ -34,8 +34,8 @@ import org.telegram.SQLite.SQLiteCursor;
 import org.telegram.SQLite.SQLiteDatabase;
 import org.telegram.SQLite.SQLiteException;
 import org.telegram.SQLite.SQLitePreparedStatement;
-import org.verdgram.messenger.support.LongSparseIntArray;
-import org.verdgram.messenger.utils.EphemeralMessagesHelper;
+import org.telegram.messenger.support.LongSparseIntArray;
+import org.telegram.messenger.utils.EphemeralMessagesHelper;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.RequestDelegate;
 import org.telegram.tgnet.TLObject;

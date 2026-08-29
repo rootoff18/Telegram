@@ -1,4 +1,4 @@
-package org.verdgram.messenger.wallpaper;
+package org.telegram.messenger.wallpaper;
 
 import android.graphics.Bitmap;
 

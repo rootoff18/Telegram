@@ -12,8 +12,8 @@ import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.SharedConfig;
+import org.telegram.messenger.R;
+import org.telegram.messenger.SharedConfig;
 import org.telegram.tgnet.tl.TL_iv;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.TextSelectionHelper;

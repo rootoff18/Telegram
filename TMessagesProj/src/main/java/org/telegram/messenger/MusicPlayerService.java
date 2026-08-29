@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.annotation.SuppressLint;
 import android.app.Notification;
@@ -39,7 +39,7 @@ import androidx.core.app.NotificationCompat;
 
 import com.google.android.exoplayer2.C;
 
-import org.verdgram.messenger.audioinfo.AudioInfo;
+import org.telegram.messenger.audioinfo.AudioInfo;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;

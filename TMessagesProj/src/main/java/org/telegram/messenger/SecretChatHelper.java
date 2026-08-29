@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,7 +16,7 @@ import android.util.SparseArray;
 import android.util.SparseIntArray;
 
 import org.telegram.SQLite.SQLiteCursor;
-import org.verdgram.messenger.support.LongSparseIntArray;
+import org.telegram.messenger.support.LongSparseIntArray;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.InputSerializedData;
 import org.telegram.tgnet.NativeByteBuffer;

@@ -7,11 +7,11 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.widget.FrameLayout;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.DialogObject;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.browser.Browser;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.DialogObject;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.browser.Browser;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.BaseFragment;

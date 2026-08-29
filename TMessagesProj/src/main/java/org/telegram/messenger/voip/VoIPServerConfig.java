@@ -1,9 +1,9 @@
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.FileLog;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.FileLog;
 
 /**
  * Created by grishka on 01.03.17.

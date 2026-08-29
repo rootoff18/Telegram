@@ -5,11 +5,11 @@ import android.graphics.drawable.Drawable;
 import android.util.Log;
 import android.view.View;
 
-import org.verdgram.messenger.DocumentObject;
-import org.verdgram.messenger.ImageLocation;
-import org.verdgram.messenger.ImageReceiver;
-import org.verdgram.messenger.MediaController;
-import org.verdgram.messenger.MessageObject;
+import org.telegram.messenger.DocumentObject;
+import org.telegram.messenger.ImageLocation;
+import org.telegram.messenger.ImageReceiver;
+import org.telegram.messenger.MediaController;
+import org.telegram.messenger.MessageObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.EmojiView;

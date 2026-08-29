@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.annotation.SuppressLint;
 import android.app.PendingIntent;
@@ -27,7 +27,7 @@ import androidx.annotation.Nullable;
 import androidx.collection.LongSparseArray;
 
 import org.telegram.SQLite.SQLiteCursor;
-import org.verdgram.messenger.audioinfo.AudioInfo;
+import org.telegram.messenger.audioinfo.AudioInfo;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.LaunchActivity;

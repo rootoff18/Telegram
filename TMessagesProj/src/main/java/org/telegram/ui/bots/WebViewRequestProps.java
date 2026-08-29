@@ -6,7 +6,7 @@ import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import org.verdgram.messenger.FileLog;
+import org.telegram.messenger.FileLog;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 

@@ -1,4 +1,4 @@
-package org.verdgram.messenger.pip;
+package org.telegram.messenger.pip;
 
 import android.app.Activity;
 import android.app.PictureInPictureParams;
@@ -11,14 +11,14 @@ import androidx.annotation.RequiresApi;
 
 import com.google.android.exoplayer2.Player;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.pip.activity.IPipActivity;
-import org.verdgram.messenger.pip.activity.IPipActivityActionListener;
-import org.verdgram.messenger.pip.source.IPipSourceDelegate;
-import org.verdgram.messenger.pip.source.PipSourceHandlerState2;
-import org.verdgram.messenger.pip.utils.PipPositionObserver;
-import org.verdgram.messenger.pip.utils.PipSourceParams;
-import org.verdgram.messenger.pip.utils.PipUtils;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.pip.activity.IPipActivity;
+import org.telegram.messenger.pip.activity.IPipActivityActionListener;
+import org.telegram.messenger.pip.source.IPipSourceDelegate;
+import org.telegram.messenger.pip.source.PipSourceHandlerState2;
+import org.telegram.messenger.pip.utils.PipPositionObserver;
+import org.telegram.messenger.pip.utils.PipSourceParams;
+import org.telegram.messenger.pip.utils.PipUtils;
 import org.telegram.ui.Stories.LiveStoryPipOverlay;
 import org.webrtc.TextureViewRenderer;
 

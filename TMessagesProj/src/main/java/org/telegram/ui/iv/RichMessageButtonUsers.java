@@ -1,6 +1,6 @@
 package org.telegram.ui.iv;
 
-import org.verdgram.messenger.MessagesController;
+import org.telegram.messenger.MessagesController;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_iv;
 import org.telegram.tgnet.tl.TL_keyboard;

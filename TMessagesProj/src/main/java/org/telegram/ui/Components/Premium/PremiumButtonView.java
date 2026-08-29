@@ -19,9 +19,9 @@ import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.utils.ViewOutlineProviderImpl;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.utils.ViewOutlineProviderImpl;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.BadWayToMakeButtonRound;
 import org.telegram.ui.Components.AnimatedFloat;

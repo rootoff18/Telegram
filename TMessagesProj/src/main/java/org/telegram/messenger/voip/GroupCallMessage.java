@@ -1,6 +1,6 @@
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
-import org.verdgram.messenger.MediaDataController;
+import org.telegram.messenger.MediaDataController;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.Reactions.ReactionsLayoutInBubble;
 

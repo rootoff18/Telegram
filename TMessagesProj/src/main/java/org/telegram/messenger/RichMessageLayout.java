@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import static org.verdgram.messenger.AndroidUtilities.dp;
 import static org.verdgram.messenger.AndroidUtilities.dpf2;
@@ -71,8 +71,8 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
 import org.telegram.PhoneFormat.PhoneFormat;
-import org.verdgram.messenger.utils.DrawableUtils;
-import org.verdgram.messenger.utils.tlutils.TLKeyboardHelper;
+import org.telegram.messenger.utils.DrawableUtils;
+import org.telegram.messenger.utils.tlutils.TLKeyboardHelper;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_iv;

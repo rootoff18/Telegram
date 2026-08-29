@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -66,10 +66,10 @@ import androidx.core.graphics.drawable.IconCompat;
 
 import com.google.common.collect.Lists;
 
-import org.verdgram.messenger.support.LongSparseIntArray;
-import org.verdgram.messenger.utils.tlutils.TLKeyboardHelper;
-import org.verdgram.messenger.utils.tlutils.TlUtils;
-import org.verdgram.messenger.voip.VoIPGroupNotification;
+import org.telegram.messenger.support.LongSparseIntArray;
+import org.telegram.messenger.utils.tlutils.TLKeyboardHelper;
+import org.telegram.messenger.utils.tlutils.TlUtils;
+import org.telegram.messenger.voip.VoIPGroupNotification;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_account;

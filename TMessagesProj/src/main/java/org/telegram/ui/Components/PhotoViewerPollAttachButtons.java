@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.verdgram.messenger.R;
+import org.telegram.messenger.R;
 
 public class PhotoViewerPollAttachButtons extends LinearLayout {
     public final View editButton;

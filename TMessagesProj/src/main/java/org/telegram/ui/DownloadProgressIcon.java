@@ -9,13 +9,13 @@ import android.view.View;
 
 import com.google.android.exoplayer2.util.Log;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.DownloadController;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.ImageReceiver;
-import org.verdgram.messenger.MessagesStorage;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.R;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.DownloadController;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.ImageReceiver;
+import org.telegram.messenger.MessagesStorage;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.R;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.RLottieDrawable;
 

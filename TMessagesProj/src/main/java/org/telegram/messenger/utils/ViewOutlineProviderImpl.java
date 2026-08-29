@@ -1,4 +1,4 @@
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
 import android.graphics.Outline;
 import android.graphics.drawable.Drawable;

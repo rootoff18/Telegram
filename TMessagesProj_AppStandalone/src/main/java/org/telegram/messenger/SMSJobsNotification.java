@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.app.PendingIntent;
 import android.app.Service;
@@ -13,7 +13,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.app.ServiceCompat;
 
-import org.verdgram.messenger.web.R;
+import org.telegram.messenger.web.R;
 import org.telegram.tgnet.TL_smsjobs;
 import org.telegram.ui.LaunchActivity;
 

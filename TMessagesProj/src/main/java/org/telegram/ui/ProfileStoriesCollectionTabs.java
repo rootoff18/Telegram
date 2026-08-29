@@ -13,9 +13,9 @@ import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.R;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.R;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.BlurredFrameLayout;

@@ -1,4 +1,4 @@
-package org.verdgram.messenger.pip;
+package org.telegram.messenger.pip;
 
 import android.app.Activity;
 import android.app.PictureInPictureParams;
@@ -15,15 +15,15 @@ import android.view.Choreographer;
 import androidx.annotation.NonNull;
 import androidx.core.math.MathUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.pip.activity.IPipActivity;
-import org.verdgram.messenger.pip.activity.IPipActivityActionListener;
-import org.verdgram.messenger.pip.activity.IPipActivityAnimationListener;
-import org.verdgram.messenger.pip.activity.IPipActivityHandler;
-import org.verdgram.messenger.pip.activity.IPipActivityListener;
-import org.verdgram.messenger.pip.utils.PipActions;
-import org.verdgram.messenger.pip.utils.PipDuration;
-import org.verdgram.messenger.pip.utils.PipUtils;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.pip.activity.IPipActivity;
+import org.telegram.messenger.pip.activity.IPipActivityActionListener;
+import org.telegram.messenger.pip.activity.IPipActivityAnimationListener;
+import org.telegram.messenger.pip.activity.IPipActivityHandler;
+import org.telegram.messenger.pip.activity.IPipActivityListener;
+import org.telegram.messenger.pip.utils.PipActions;
+import org.telegram.messenger.pip.utils.PipDuration;
+import org.telegram.messenger.pip.utils.PipUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -18,9 +18,9 @@ import android.view.View;
 
 import androidx.annotation.Keep;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ImageLocation;
-import org.verdgram.messenger.ImageReceiver;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ImageLocation;
+import org.telegram.messenger.ImageReceiver;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.MessageDrawable;
 import org.telegram.ui.ActionBar.Theme;

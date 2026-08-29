@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -27,8 +27,8 @@ import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 
-import org.verdgram.messenger.time.FastDateFormat;
-import org.verdgram.messenger.video.MediaCodecVideoConvertor;
+import org.telegram.messenger.time.FastDateFormat;
+import org.telegram.messenger.video.MediaCodecVideoConvertor;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.AnimatedFileDrawable;

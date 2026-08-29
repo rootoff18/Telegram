@@ -1,13 +1,13 @@
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
 import static android.content.Context.AUDIO_SERVICE;
 
 import android.media.AudioManager;
 
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.Utilities;
 
 public class VoipAudioManager {
 

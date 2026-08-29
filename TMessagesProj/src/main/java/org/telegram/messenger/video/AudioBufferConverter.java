@@ -1,13 +1,13 @@
-package org.verdgram.messenger.video;
+package org.telegram.messenger.video;
 
 import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.video.remix.AudioRemixer;
-import org.verdgram.messenger.video.remix.DefaultAudioRemixer;
-import org.verdgram.messenger.video.resample.AudioResampler;
-import org.verdgram.messenger.video.resample.DefaultAudioResampler;
+import org.telegram.messenger.video.remix.AudioRemixer;
+import org.telegram.messenger.video.remix.DefaultAudioRemixer;
+import org.telegram.messenger.video.resample.AudioResampler;
+import org.telegram.messenger.video.resample.DefaultAudioResampler;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

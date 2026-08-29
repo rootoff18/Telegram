@@ -2,7 +2,7 @@
  https://github.com/leolin310148/ShortcutBadger
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.annotation.TargetApi;
 import android.content.AsyncQueryHandler;

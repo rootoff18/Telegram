@@ -6,8 +6,8 @@ import static org.verdgram.messenger.AndroidUtilities.lerp;
 import android.graphics.Canvas;
 import android.view.View;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.Utilities;
 
 public class Shaker {
 

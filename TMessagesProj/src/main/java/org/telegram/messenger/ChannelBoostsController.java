@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import com.google.android.exoplayer2.util.Consumer;
 

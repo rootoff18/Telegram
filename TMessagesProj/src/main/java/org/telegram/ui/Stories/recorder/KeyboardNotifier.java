@@ -11,8 +11,8 @@ import androidx.annotation.Size;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.Utilities;
 import org.telegram.ui.Components.SizeNotifierFrameLayout;
 
 @Deprecated(since = "use insets listener !!!")

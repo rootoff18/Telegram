@@ -1,4 +1,4 @@
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
 import android.graphics.Typeface;
 import android.os.Build;
@@ -14,9 +14,9 @@ import android.text.style.StyleSpan;
 import android.text.style.URLSpan;
 import android.text.style.UnderlineSpan;
 
-import org.verdgram.messenger.CodeHighlighting;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.MediaDataController;
+import org.telegram.messenger.CodeHighlighting;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.MediaDataController;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.AnimatedEmojiSpan;
 import org.telegram.ui.Components.QuoteSpan;

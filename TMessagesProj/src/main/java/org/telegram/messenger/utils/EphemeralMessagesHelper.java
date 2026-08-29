@@ -1,16 +1,16 @@
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
 import android.util.SparseIntArray;
 
 import androidx.annotation.Nullable;
 import androidx.collection.LongSparseArray;
 
-import org.verdgram.messenger.BaseController;
-import org.verdgram.messenger.DialogObject;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.UserObject;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.BaseController;
+import org.telegram.messenger.DialogObject;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.UserObject;
+import org.telegram.messenger.Utilities;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

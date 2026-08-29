@@ -6,10 +6,10 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger.secretmedia;
+package org.telegram.messenger.secretmedia;
 
-import org.verdgram.messenger.SecureDocumentKey;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.SecureDocumentKey;
+import org.telegram.messenger.Utilities;
 
 import java.io.File;
 import java.io.FileInputStream;

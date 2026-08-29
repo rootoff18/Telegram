@@ -14,7 +14,7 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.R;
+import org.telegram.messenger.R;
 
 public class LivePhotoButton extends View {
 

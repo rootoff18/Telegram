@@ -1,4 +1,4 @@
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
 import android.graphics.drawable.Drawable;
 import android.os.Looper;
@@ -9,7 +9,7 @@ import android.util.SparseArray;
 
 import androidx.annotation.Nullable;
 
-import org.verdgram.messenger.BuildConfig;
+import org.telegram.messenger.BuildConfig;
 
 import java.util.LinkedHashSet;
 import java.util.Set;

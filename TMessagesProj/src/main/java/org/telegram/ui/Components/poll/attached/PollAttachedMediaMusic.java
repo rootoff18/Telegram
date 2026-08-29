@@ -6,9 +6,9 @@ import android.graphics.Canvas;
 import android.text.TextUtils;
 import android.view.View;
 
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.ImageReceiver;
-import org.verdgram.messenger.MessageObject;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.ImageReceiver;
+import org.telegram.messenger.MessageObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.MediaActionDrawable;

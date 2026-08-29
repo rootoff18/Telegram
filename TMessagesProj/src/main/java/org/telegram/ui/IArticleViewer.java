@@ -5,8 +5,8 @@ import android.view.View;
 
 import androidx.collection.LongSparseArray;
 
-import org.verdgram.messenger.browser.Browser;
-import org.verdgram.messenger.video.VideoPlayerHolderBase;
+import org.telegram.messenger.browser.Browser;
+import org.telegram.messenger.video.VideoPlayerHolderBase;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_iv;
 import org.telegram.ui.ActionBar.ActionBarPopupWindow;

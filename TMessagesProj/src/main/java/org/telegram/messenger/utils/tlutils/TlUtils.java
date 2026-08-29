@@ -1,4 +1,4 @@
-package org.verdgram.messenger.utils.tlutils;
+package org.telegram.messenger.utils.tlutils;
 
 import android.text.TextUtils;
 
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.TLObject;
 
-import org.verdgram.messenger.MediaDataController;
+import org.telegram.messenger.MediaDataController;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_ephemeral;
 import org.telegram.tgnet.tl.TL_stars;

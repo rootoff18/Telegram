@@ -12,10 +12,10 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.MediaDataController;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.MediaDataController;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.UserConfig;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Stories.recorder.HintView2;
 

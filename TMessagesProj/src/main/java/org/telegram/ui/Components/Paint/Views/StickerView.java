@@ -7,10 +7,10 @@ import android.graphics.RectF;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.ImageLocation;
-import org.verdgram.messenger.ImageReceiver;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.ImageLocation;
+import org.telegram.messenger.ImageReceiver;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.AnimatedFileDrawable;
 import org.telegram.ui.Components.AnimatedFloat;

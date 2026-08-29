@@ -8,7 +8,7 @@ import android.os.Build;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.utils.ViewOutlineProviderImpl;
+import org.telegram.messenger.utils.ViewOutlineProviderImpl;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 import org.telegram.ui.Stories.recorder.ButtonWithCounterView;

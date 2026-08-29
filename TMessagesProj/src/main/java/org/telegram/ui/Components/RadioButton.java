@@ -23,9 +23,9 @@ import androidx.core.graphics.ColorUtils;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.Utilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class RadioButton extends View {

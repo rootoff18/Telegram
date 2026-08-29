@@ -27,10 +27,10 @@ import android.view.View;
 
 import com.google.zxing.common.detector.MathUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.LiteMode;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.SvgHelper;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.LiteMode;
+import org.telegram.messenger.R;
+import org.telegram.messenger.SvgHelper;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.Premium.StarParticlesView;
 

@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import static org.verdgram.messenger.AndroidUtilities.isInAirplaneMode;
 import static org.telegram.ui.PremiumPreviewFragment.applyNewSpan;
@@ -14,8 +14,8 @@ import android.view.ViewGroup;
 import androidx.core.content.FileProvider;
 
 import org.json.JSONObject;
-import org.verdgram.messenger.web.BuildConfig;
-import org.verdgram.messenger.web.R;
+import org.telegram.messenger.web.BuildConfig;
+import org.telegram.messenger.web.R;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TL_smsjobs;
 import org.telegram.tgnet.TLRPC;

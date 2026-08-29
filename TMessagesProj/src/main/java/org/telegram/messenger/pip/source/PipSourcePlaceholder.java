@@ -1,4 +1,4 @@
-package org.verdgram.messenger.pip.source;
+package org.telegram.messenger.pip.source;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

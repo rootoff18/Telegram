@@ -7,7 +7,7 @@ import android.graphics.Paint;
 import android.text.TextPaint;
 import android.view.View;
 
-import org.verdgram.messenger.LocaleController;
+import org.telegram.messenger.LocaleController;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.ReplyMessageLine;
 

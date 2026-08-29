@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.content.Context;
 import android.os.Build;
@@ -28,7 +28,7 @@ import androidx.credentials.exceptions.NoCredentialException;
 
 import org.json.JSONObject;
 import org.json.JSONStringer;
-import org.verdgram.messenger.browser.Browser;
+import org.telegram.messenger.browser.Browser;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

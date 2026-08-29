@@ -1,6 +1,6 @@
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
-import org.verdgram.messenger.AndroidUtilities;
+import org.telegram.messenger.AndroidUtilities;
 
 public class CountdownTimer {
     private final Callback callback;

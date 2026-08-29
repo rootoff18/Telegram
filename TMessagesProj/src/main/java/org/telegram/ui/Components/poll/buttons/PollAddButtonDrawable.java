@@ -18,8 +18,8 @@ import android.view.Gravity;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.utils.DrawableUtils;
+import org.telegram.messenger.R;
+import org.telegram.messenger.utils.DrawableUtils;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 import org.telegram.ui.Components.poll.PollAttachedMedia;

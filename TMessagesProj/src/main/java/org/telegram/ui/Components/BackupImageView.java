@@ -27,12 +27,12 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ImageLoader;
-import org.verdgram.messenger.ImageLocation;
-import org.verdgram.messenger.ImageReceiver;
-import org.verdgram.messenger.SecureDocument;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ImageLoader;
+import org.telegram.messenger.ImageLocation;
+import org.telegram.messenger.ImageReceiver;
+import org.telegram.messenger.SecureDocument;
+import org.telegram.messenger.Utilities;
 import org.telegram.tgnet.TLObject;
 
 public class BackupImageView extends View {

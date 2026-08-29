@@ -14,8 +14,8 @@ import android.view.Gravity;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.utils.DrawableUtils;
+import org.telegram.messenger.R;
+import org.telegram.messenger.utils.DrawableUtils;
 import org.telegram.ui.ActionBar.Theme;
 
 public class CommunityAvatarDrawable extends Drawable {

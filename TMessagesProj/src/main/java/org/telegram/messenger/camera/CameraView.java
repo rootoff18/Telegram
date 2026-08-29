@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger.camera;
+package org.telegram.messenger.camera;
 
 import static org.verdgram.messenger.AndroidUtilities.dp;
 
@@ -59,21 +59,21 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.DispatchQueue;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.ImageLoader;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.SharedConfig;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.Utilities;
-import org.verdgram.messenger.video.MP4Builder;
-import org.verdgram.messenger.video.MediaCodecVideoConvertor;
-import org.verdgram.messenger.video.Mp4Movie;
-import org.verdgram.messenger.voip.VoIPService;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.DispatchQueue;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.ImageLoader;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.Utilities;
+import org.telegram.messenger.video.MP4Builder;
+import org.telegram.messenger.video.MediaCodecVideoConvertor;
+import org.telegram.messenger.video.Mp4Movie;
+import org.telegram.messenger.voip.VoIPService;
 import org.telegram.ui.Components.AnimatedFloat;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 import org.telegram.ui.Components.InstantCameraView;

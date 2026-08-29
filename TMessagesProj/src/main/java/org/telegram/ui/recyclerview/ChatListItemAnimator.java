@@ -17,12 +17,12 @@ import androidx.core.view.ViewCompat;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.ImageReceiver;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.SharedConfig;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.ImageReceiver;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.Utilities;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.BotHelpCell;
 import org.telegram.ui.Cells.ChatActionCell;

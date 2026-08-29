@@ -1,8 +1,8 @@
-package org.verdgram.messenger.video;
+package org.telegram.messenger.video;
 
 import com.google.android.exoplayer2.C;
 
-import org.verdgram.messenger.AndroidUtilities;
+import org.telegram.messenger.AndroidUtilities;
 import org.telegram.ui.Components.PhotoViewerWebView;
 import org.telegram.ui.Components.VideoForwardDrawable;
 import org.telegram.ui.Components.VideoPlayer;

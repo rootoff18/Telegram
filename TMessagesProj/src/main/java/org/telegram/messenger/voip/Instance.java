@@ -1,12 +1,12 @@
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
 import com.google.android.exoplayer2.util.Util;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.FileLog;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.FileLog;
 import org.webrtc.ContextUtils;
 import org.webrtc.VideoSink;
 

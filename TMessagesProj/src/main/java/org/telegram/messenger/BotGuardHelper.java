@@ -1,6 +1,6 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
-import org.verdgram.messenger.support.LongSparseLongArray;
+import org.telegram.messenger.support.LongSparseLongArray;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.ActionBar.BottomSheetTabs;

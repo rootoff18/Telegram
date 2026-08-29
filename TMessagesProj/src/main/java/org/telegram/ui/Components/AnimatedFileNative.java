@@ -4,8 +4,8 @@ import android.graphics.Bitmap;
 import android.os.Build;
 import android.os.Trace;
 
-import org.verdgram.messenger.AnimatedFileDrawableStream;
-import org.verdgram.messenger.BuildConfig;
+import org.telegram.messenger.AnimatedFileDrawableStream;
+import org.telegram.messenger.BuildConfig;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;

@@ -1,15 +1,15 @@
-package org.verdgram.messenger.video;
+package org.telegram.messenger.video;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.view.View;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.SharedConfig;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.Utilities;
 import org.telegram.ui.Components.AnimatedFileNative;
 
 import java.io.File;

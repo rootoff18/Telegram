@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger.browser;
+package org.telegram.messenger.browser;
 
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -21,26 +21,26 @@ import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 
-import org.verdgram.messenger.AccountInstance;
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.CustomTabsCopyReceiver;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.ShareBroadcastReceiver;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.support.customtabs.CustomTabsCallback;
-import org.verdgram.messenger.support.customtabs.CustomTabsClient;
-import org.verdgram.messenger.support.customtabs.CustomTabsIntent;
-import org.verdgram.messenger.support.customtabs.CustomTabsServiceConnection;
-import org.verdgram.messenger.support.customtabs.CustomTabsSession;
-import org.verdgram.messenger.support.customtabsclient.shared.CustomTabsHelper;
-import org.verdgram.messenger.support.customtabsclient.shared.ServiceConnection;
-import org.verdgram.messenger.support.customtabsclient.shared.ServiceConnectionCallback;
+import org.telegram.messenger.AccountInstance;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.CustomTabsCopyReceiver;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.R;
+import org.telegram.messenger.ShareBroadcastReceiver;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.support.customtabs.CustomTabsCallback;
+import org.telegram.messenger.support.customtabs.CustomTabsClient;
+import org.telegram.messenger.support.customtabs.CustomTabsIntent;
+import org.telegram.messenger.support.customtabs.CustomTabsServiceConnection;
+import org.telegram.messenger.support.customtabs.CustomTabsSession;
+import org.telegram.messenger.support.customtabsclient.shared.CustomTabsHelper;
+import org.telegram.messenger.support.customtabsclient.shared.ServiceConnection;
+import org.telegram.messenger.support.customtabsclient.shared.ServiceConnectionCallback;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_account;

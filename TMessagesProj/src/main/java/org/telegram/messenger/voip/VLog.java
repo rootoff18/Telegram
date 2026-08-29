@@ -1,4 +1,4 @@
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
 import android.text.TextUtils;
 

@@ -3,7 +3,7 @@ package org.telegram.ui.web;
 
 import android.os.AsyncTask;
 
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.Utilities;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

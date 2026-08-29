@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger.camera;
+package org.telegram.messenger.camera;
 
 import android.hardware.Camera;
 import android.hardware.camera2.CameraCaptureSession;

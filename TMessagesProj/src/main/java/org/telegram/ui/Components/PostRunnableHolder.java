@@ -1,6 +1,6 @@
 package org.telegram.ui.Components;
 
-import org.verdgram.messenger.AndroidUtilities;
+import org.telegram.messenger.AndroidUtilities;
 
 import java.util.HashMap;
 import java.util.Map;

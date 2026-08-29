@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 public class LanguageDetector {
     public interface StringCallback {

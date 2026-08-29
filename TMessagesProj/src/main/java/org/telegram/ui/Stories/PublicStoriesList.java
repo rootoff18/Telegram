@@ -24,11 +24,11 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import org.checkerframework.checker.units.qual.A;
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.HashtagSearchController;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.HashtagSearchController;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.BaseFragment;

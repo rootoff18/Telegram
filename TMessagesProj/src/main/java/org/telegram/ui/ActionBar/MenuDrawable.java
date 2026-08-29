@@ -20,7 +20,7 @@ import android.graphics.drawable.Drawable;
 import android.os.SystemClock;
 import android.view.animation.DecelerateInterpolator;
 
-import org.verdgram.messenger.AndroidUtilities;
+import org.telegram.messenger.AndroidUtilities;
 import org.telegram.ui.Components.MediaActionDrawable;
 
 public class MenuDrawable extends Drawable {

@@ -1,4 +1,4 @@
-package org.verdgram.messenger.pip;
+package org.telegram.messenger.pip;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.pip.source.PipSourceHandlerState2;
+import org.telegram.messenger.pip.source.PipSourceHandlerState2;
 
 @SuppressLint("ViewConstructor")
 public class PipSourceContentView extends ViewGroup {

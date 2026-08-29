@@ -4,10 +4,10 @@ import static org.verdgram.messenger.AndroidUtilities.dp;
 
 import android.graphics.Canvas;
 
-import org.verdgram.messenger.ImageLocation;
-import org.verdgram.messenger.ImageReceiver;
-import org.verdgram.messenger.MediaController;
-import org.verdgram.messenger.SendMessagesHelper;
+import org.telegram.messenger.ImageLocation;
+import org.telegram.messenger.ImageReceiver;
+import org.telegram.messenger.MediaController;
+import org.telegram.messenger.SendMessagesHelper;
 import org.telegram.ui.Components.poll.PollAttachedMedia;
 
 public class PollAttachedMediaGallery extends PollAttachedMedia {

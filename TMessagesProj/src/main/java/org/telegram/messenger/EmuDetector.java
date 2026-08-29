@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.Manifest;
 import android.annotation.SuppressLint;

@@ -6,9 +6,9 @@ import android.view.View;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.R;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.R;
 import org.telegram.tgnet.tl.TL_payments;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.BackDrawable;

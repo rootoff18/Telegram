@@ -1,4 +1,4 @@
-package org.verdgram.messenger.video;
+package org.telegram.messenger.video;
 
 import android.annotation.TargetApi;
 import android.media.MediaCodec;
@@ -11,17 +11,17 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.MediaController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.SharedConfig;
-import org.verdgram.messenger.Utilities;
-import org.verdgram.messenger.VideoEditedInfo;
-import org.verdgram.messenger.video.audio_input.AudioInput;
-import org.verdgram.messenger.video.audio_input.BlankAudioInput;
-import org.verdgram.messenger.video.audio_input.GeneralAudioInput;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.MediaController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.Utilities;
+import org.telegram.messenger.VideoEditedInfo;
+import org.telegram.messenger.video.audio_input.AudioInput;
+import org.telegram.messenger.video.audio_input.BlankAudioInput;
+import org.telegram.messenger.video.audio_input.GeneralAudioInput;
 import org.telegram.ui.Stories.recorder.CollageLayout;
 import org.telegram.ui.Stories.recorder.StoryEntry;
 

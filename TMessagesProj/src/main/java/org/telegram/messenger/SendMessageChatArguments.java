@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 public class SendMessageChatArguments {
     public static final SendMessageChatArguments EMPTY = new SendMessageChatArguments.Builder().build();

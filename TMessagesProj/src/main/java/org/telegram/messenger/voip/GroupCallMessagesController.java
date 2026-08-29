@@ -1,18 +1,18 @@
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
 import android.util.LongSparseArray;
 
 import androidx.annotation.Nullable;
 
 import org.json.JSONObject;
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.BaseController;
-import org.verdgram.messenger.DialogObject;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.BaseController;
+import org.telegram.messenger.DialogObject;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.Utilities;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.json.TLJsonBuilder;
 import org.telegram.tgnet.TLRPC;

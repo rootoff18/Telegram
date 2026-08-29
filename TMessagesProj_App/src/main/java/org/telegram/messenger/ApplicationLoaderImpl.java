@@ -1,6 +1,6 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
-import org.verdgram.messenger.regular.BuildConfig;
+import org.telegram.messenger.regular.BuildConfig;
 
 public class ApplicationLoaderImpl extends ApplicationLoader {
     @Override

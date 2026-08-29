@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;

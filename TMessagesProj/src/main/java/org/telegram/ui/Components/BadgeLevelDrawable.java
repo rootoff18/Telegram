@@ -17,8 +17,8 @@ import androidx.annotation.Nullable;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.math.MathUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.R;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.R;
 
 public class BadgeLevelDrawable extends Drawable implements Drawable.Callback {
     private final Context context;

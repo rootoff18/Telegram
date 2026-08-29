@@ -1,14 +1,14 @@
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
 import android.app.Activity;
 import android.os.Handler;
 import android.os.Looper;
 import android.provider.Settings;
 
-import org.verdgram.messenger.AccountInstance;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.AccountInstance;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.UserConfig;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.voip.VoIPHelper;

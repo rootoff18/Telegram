@@ -8,9 +8,9 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.AccountInstance;
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ChatObject;
+import org.telegram.messenger.AccountInstance;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ChatObject;
 import org.telegram.ui.GroupCallActivity;
 import org.telegram.ui.GroupCallTabletGridAdapter;
 

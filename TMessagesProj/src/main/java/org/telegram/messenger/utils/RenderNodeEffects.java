@@ -1,4 +1,4 @@
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
 import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;

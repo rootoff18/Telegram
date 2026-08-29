@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import static org.verdgram.messenger.AndroidUtilities.dp;
 
@@ -15,7 +15,7 @@ import android.util.SparseIntArray;
 
 import androidx.annotation.Nullable;
 
-import org.verdgram.messenger.utils.tlutils.TlUtils;
+import org.telegram.messenger.utils.tlutils.TlUtils;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_forum;

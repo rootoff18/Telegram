@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.verdgram.messenger.support.customtabs;
+package org.telegram.messenger.support.customtabs;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -39,7 +39,7 @@ import androidx.core.graphics.ColorUtils;
 
 import org.checkerframework.checker.units.qual.A;
 import org.checkerframework.checker.units.qual.C;
-import org.verdgram.messenger.AndroidUtilities;
+import org.telegram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 import java.util.ArrayList;

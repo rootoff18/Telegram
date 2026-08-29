@@ -12,8 +12,8 @@ import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.utils.DebugRecordingCanvas;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.utils.DebugRecordingCanvas;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.Components.LayoutHelper;

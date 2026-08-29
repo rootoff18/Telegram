@@ -34,12 +34,12 @@ import android.view.animation.LinearInterpolator;
 import androidx.core.graphics.ColorUtils;
 import org.telegram.ui.recyclerview.ChatListItemAnimator;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.AnimationNotificationsLocker;
-import org.verdgram.messenger.Emoji;
-import org.verdgram.messenger.MessageObject;
-import org.verdgram.messenger.SharedConfig;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.AnimationNotificationsLocker;
+import org.telegram.messenger.Emoji;
+import org.telegram.messenger.MessageObject;
+import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.MessageDrawable;
 import org.telegram.ui.ActionBar.SimpleTextView;

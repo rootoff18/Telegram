@@ -1,4 +1,4 @@
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
 public class RadiiUtils {
     public static boolean radiiAreSame(float[] radii) {

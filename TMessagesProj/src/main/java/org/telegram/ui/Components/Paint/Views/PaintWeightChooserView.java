@@ -18,7 +18,7 @@ import android.view.View;
 import androidx.core.math.MathUtils;
 import androidx.core.view.GestureDetectorCompat;
 
-import org.verdgram.messenger.AndroidUtilities;
+import org.telegram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.AnimatedFloat;
 import org.telegram.ui.Components.CubicBezierInterpolator;

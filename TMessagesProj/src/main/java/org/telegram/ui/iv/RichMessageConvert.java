@@ -4,7 +4,7 @@ import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 import android.text.TextUtils;
 
-import org.verdgram.messenger.CodeHighlighting;
+import org.telegram.messenger.CodeHighlighting;
 import org.telegram.tgnet.tl.TL_iv;
 import org.telegram.ui.Components.QuoteSpan;
 import org.telegram.ui.Components.TextStyleSpan;

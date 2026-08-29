@@ -1,10 +1,10 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import androidx.annotation.Nullable;
 
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
-import org.verdgram.messenger.utils.tlutils.AmountUtils;
+import org.telegram.messenger.utils.tlutils.AmountUtils;
 
 public class MessageSuggestionParams {
     public final @Nullable AmountUtils.Amount amount;

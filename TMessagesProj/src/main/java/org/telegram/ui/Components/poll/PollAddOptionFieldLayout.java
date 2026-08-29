@@ -27,10 +27,10 @@ import androidx.annotation.ChecksSdkIntAtLeast;
 import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.utils.DrawableUtils;
-import org.verdgram.messenger.utils.TextWatcherImpl;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.R;
+import org.telegram.messenger.utils.DrawableUtils;
+import org.telegram.messenger.utils.TextWatcherImpl;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.ActionBar.SimpleTextView;
 import org.telegram.ui.ActionBar.Theme;

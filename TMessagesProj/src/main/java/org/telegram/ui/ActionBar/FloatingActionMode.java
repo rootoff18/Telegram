@@ -33,10 +33,10 @@ import android.view.WindowManager;
 import android.widget.PopupMenu;
 import android.widget.PopupWindow;
 
-import org.verdgram.messenger.AccountInstance;
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.AccountInstance;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.UserConfig;
 
 import java.util.Arrays;
 

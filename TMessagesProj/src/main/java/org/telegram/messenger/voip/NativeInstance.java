@@ -1,10 +1,10 @@
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.SharedConfig;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.SharedConfig;
 import org.webrtc.ContextUtils;
 import org.webrtc.VideoSink;
 

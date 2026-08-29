@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.text.TextUtils;
 import android.util.LongSparseArray;

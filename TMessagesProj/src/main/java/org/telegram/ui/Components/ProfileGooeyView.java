@@ -28,10 +28,10 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.core.math.MathUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.NotchInfoUtils;
-import org.verdgram.messenger.SharedConfig;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.NotchInfoUtils;
+import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.Utilities;
 
 public class ProfileGooeyView extends FrameLayout {
     private static final float AVATAR_SIZE_DP = 100;

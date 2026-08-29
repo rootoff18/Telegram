@@ -1,14 +1,14 @@
-package org.verdgram.messenger.utils.tlutils;
+package org.telegram.messenger.utils.tlutils;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.math.MathUtils;
 
-import org.verdgram.messenger.BuildConfig;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.UserConfig;
+import org.telegram.messenger.BuildConfig;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.R;
+import org.telegram.messenger.UserConfig;
 import org.telegram.tgnet.tl.TL_stars;
 
 import java.math.BigDecimal;

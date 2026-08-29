@@ -12,9 +12,9 @@ import android.view.animation.LinearInterpolator;
 
 import androidx.annotation.NonNull;
 
-import org.verdgram.messenger.LiteMode;
-import org.verdgram.messenger.UserObject;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.LiteMode;
+import org.telegram.messenger.UserObject;
+import org.telegram.messenger.Utilities;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.AnimatedEmojiDrawable;
 import org.telegram.ui.Components.CubicBezierInterpolator;

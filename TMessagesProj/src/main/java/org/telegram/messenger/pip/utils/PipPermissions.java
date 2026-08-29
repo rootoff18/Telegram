@@ -1,4 +1,4 @@
-package org.verdgram.messenger.pip.utils;
+package org.telegram.messenger.pip.utils;
 
 import androidx.annotation.IntDef;
 

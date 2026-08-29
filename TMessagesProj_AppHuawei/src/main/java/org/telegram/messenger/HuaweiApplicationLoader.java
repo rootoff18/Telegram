@@ -1,9 +1,9 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.huawei.hms.push.HmsMessaging;
 
-import org.verdgram.messenger.huawei.BuildConfig;
+import org.telegram.messenger.huawei.BuildConfig;
 
 public class HuaweiApplicationLoader extends ApplicationLoader {
     @Override

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger.support;
+package org.telegram.messenger.support;
 
 /**
  * SparseLongArrays map integers to longs.  Unlike a normal array of longs,

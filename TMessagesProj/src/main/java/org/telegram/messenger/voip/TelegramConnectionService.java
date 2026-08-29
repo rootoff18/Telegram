@@ -1,4 +1,4 @@
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
 import android.annotation.TargetApi;
 import android.os.Build;
@@ -8,8 +8,8 @@ import android.telecom.ConnectionRequest;
 import android.telecom.ConnectionService;
 import android.telecom.PhoneAccountHandle;
 
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.FileLog;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.FileLog;
 
 /**
  * Created by grishka on 09.01.2018.

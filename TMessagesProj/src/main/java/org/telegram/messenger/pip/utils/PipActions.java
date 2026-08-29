@@ -1,4 +1,4 @@
-package org.verdgram.messenger.pip.utils;
+package org.telegram.messenger.pip.utils;
 
 import android.app.PendingIntent;
 import android.app.RemoteAction;

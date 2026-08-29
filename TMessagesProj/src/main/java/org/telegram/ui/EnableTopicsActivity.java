@@ -17,9 +17,9 @@ import android.widget.TextView;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.ImageReceiver;
-import org.verdgram.messenger.R;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.ImageReceiver;
+import org.telegram.messenger.R;
+import org.telegram.messenger.Utilities;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.BaseFragment;

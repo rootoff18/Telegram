@@ -6,7 +6,7 @@
  * Copyright Grishka, 2013-2016.
  */
 
-package org.verdgram.messenger.voip;
+package org.telegram.messenger.voip;
 
 import android.content.SharedPreferences;
 import android.media.audiofx.AcousticEchoCanceler;
@@ -14,9 +14,9 @@ import android.media.audiofx.NoiseSuppressor;
 import android.os.Build;
 import android.os.SystemClock;
 
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.MessagesController;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.MessagesController;
 import org.telegram.ui.Components.voip.VoIPHelper;
 
 import java.io.File;

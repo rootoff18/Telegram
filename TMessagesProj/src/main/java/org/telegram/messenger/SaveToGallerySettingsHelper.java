@@ -1,4 +1,4 @@
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import static org.verdgram.messenger.SharedConfig.SAVE_TO_GALLERY_FLAG_CHANNELS;
 import static org.verdgram.messenger.SharedConfig.SAVE_TO_GALLERY_FLAG_GROUP;

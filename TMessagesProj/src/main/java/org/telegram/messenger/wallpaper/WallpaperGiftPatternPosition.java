@@ -1,12 +1,12 @@
-package org.verdgram.messenger.wallpaper;
+package org.telegram.messenger.wallpaper;
 
 import android.graphics.Matrix;
 import android.graphics.RectF;
 
 import androidx.annotation.Nullable;
 
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.SvgHelper;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.SvgHelper;
 import org.telegram.tgnet.InputSerializedData;
 import org.telegram.tgnet.OutputSerializedData;
 import org.xml.sax.Attributes;

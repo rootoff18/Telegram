@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import android.annotation.TargetApi;
 import android.app.ActivityManager;
@@ -43,9 +43,9 @@ import androidx.core.graphics.ColorUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.telegram.DispatchQueuePriority;
-import org.verdgram.messenger.secretmedia.EncryptedFileInputStream;
-import org.verdgram.messenger.utils.BitmapsCache;
-import org.verdgram.messenger.wallpaper.WallpaperGiftBitmapDrawable;
+import org.telegram.messenger.secretmedia.EncryptedFileInputStream;
+import org.telegram.messenger.utils.BitmapsCache;
+import org.telegram.messenger.wallpaper.WallpaperGiftBitmapDrawable;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

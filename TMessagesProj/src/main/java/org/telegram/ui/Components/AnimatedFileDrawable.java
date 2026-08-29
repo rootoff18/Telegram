@@ -34,17 +34,17 @@ import androidx.annotation.Nullable;
 import androidx.annotation.UiThread;
 import androidx.annotation.WorkerThread;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.AnimatedFileDrawableStream;
-import org.verdgram.messenger.DispatchQueue;
-import org.verdgram.messenger.DispatchQueuePoolBackground;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.ImageLocation;
-import org.verdgram.messenger.ImageReceiver;
-import org.verdgram.messenger.SharedConfig;
-import org.verdgram.messenger.utils.BitmapsCache;
-import org.verdgram.messenger.utils.Choreographer60FpsContent;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.AnimatedFileDrawableStream;
+import org.telegram.messenger.DispatchQueue;
+import org.telegram.messenger.DispatchQueuePoolBackground;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.ImageLocation;
+import org.telegram.messenger.ImageReceiver;
+import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.utils.BitmapsCache;
+import org.telegram.messenger.utils.Choreographer60FpsContent;
 import org.telegram.tgnet.TLRPC;
 
 import java.io.File;

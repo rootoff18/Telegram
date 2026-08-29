@@ -1,4 +1,4 @@
-package org.verdgram.messenger.pip.source;
+package org.telegram.messenger.pip.source;
 
 import android.app.RemoteAction;
 import android.graphics.Bitmap;

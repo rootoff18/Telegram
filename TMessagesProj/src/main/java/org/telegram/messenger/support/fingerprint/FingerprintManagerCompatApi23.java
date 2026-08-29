@@ -14,14 +14,14 @@
  * limitations under the License
  */
 
-package org.verdgram.messenger.support.fingerprint;
+package org.telegram.messenger.support.fingerprint;
 
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.hardware.fingerprint.FingerprintManager;
 import android.os.Handler;
 
-import org.verdgram.messenger.FileLog;
+import org.telegram.messenger.FileLog;
 
 import java.security.Signature;
 

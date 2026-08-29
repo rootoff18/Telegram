@@ -10,7 +10,7 @@ import android.view.TextureView;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.verdgram.messenger.ImageReceiver;
+import org.telegram.messenger.ImageReceiver;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.UiThread;

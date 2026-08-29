@@ -1,4 +1,4 @@
-package org.verdgram.messenger.video;
+package org.telegram.messenger.video;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -12,12 +12,12 @@ import android.view.TextureView;
 
 import com.google.android.exoplayer2.ExoPlayer;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.DispatchQueue;
-import org.verdgram.messenger.FileLoader;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.FileStreamLoadOperation;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.DispatchQueue;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.FileStreamLoadOperation;
+import org.telegram.messenger.Utilities;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.VideoPlayer;
 

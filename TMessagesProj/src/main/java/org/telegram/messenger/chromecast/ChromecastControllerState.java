@@ -1,10 +1,10 @@
-package org.verdgram.messenger.chromecast;
+package org.telegram.messenger.chromecast;
 
 import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.Utilities;
 
 import java.io.File;
 

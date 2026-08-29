@@ -2,13 +2,13 @@ package org.telegram.ui.Stories;
 
 import android.view.View;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ChatObject;
-import org.verdgram.messenger.MessagesController;
-import org.verdgram.messenger.MessagesStorage;
-import org.verdgram.messenger.NotificationCenter;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.support.LongSparseLongArray;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ChatObject;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.MessagesStorage;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.support.LongSparseLongArray;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

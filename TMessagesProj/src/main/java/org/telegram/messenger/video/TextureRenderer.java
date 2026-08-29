@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2020.
  */
 
-package org.verdgram.messenger.video;
+package org.telegram.messenger.video;
 
 import android.annotation.SuppressLint;
 import android.graphics.Bitmap;
@@ -41,17 +41,17 @@ import android.view.inputmethod.EditorInfo;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.Bitmaps;
-import org.verdgram.messenger.BuildVars;
-import org.verdgram.messenger.Emoji;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.LocaleController;
-import org.verdgram.messenger.MediaController;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.Utilities;
-import org.verdgram.messenger.VideoEditedInfo;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.Bitmaps;
+import org.telegram.messenger.BuildVars;
+import org.telegram.messenger.Emoji;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MediaController;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.Utilities;
+import org.telegram.messenger.VideoEditedInfo;
 import org.telegram.ui.Components.AnimatedEmojiDrawable;
 import org.telegram.ui.Components.AnimatedEmojiSpan;
 import org.telegram.ui.Components.AnimatedFileDrawable;

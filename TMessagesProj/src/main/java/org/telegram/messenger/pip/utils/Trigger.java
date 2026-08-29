@@ -1,9 +1,9 @@
-package org.verdgram.messenger.pip.utils;
+package org.telegram.messenger.pip.utils;
 
 import android.os.Handler;
 import android.os.Looper;
 
-import org.verdgram.messenger.ApplicationLoader;
+import org.telegram.messenger.ApplicationLoader;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

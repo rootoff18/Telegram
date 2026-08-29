@@ -11,8 +11,8 @@ import android.view.View;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.verdgram.messenger.AndroidUtilities;
-import org.verdgram.messenger.R;
+import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messenger.R;
 
 /**
  * Reusable collapse/expand pill button: an animated "Expand"/"Collapse" label followed by a

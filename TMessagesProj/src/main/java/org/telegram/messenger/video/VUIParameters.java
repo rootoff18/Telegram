@@ -1,4 +1,4 @@
-package org.verdgram.messenger.video;
+package org.telegram.messenger.video;
 
 import com.googlecode.mp4parser.h264.model.AspectRatio;
 import com.googlecode.mp4parser.h264.model.HRDParameters;

@@ -1,4 +1,4 @@
-package org.verdgram.messenger.utils;
+package org.telegram.messenger.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,11 +13,11 @@ import com.google.android.exoplayer2.util.Util;
 import com.google.common.base.Charsets;
 
 import org.json.JSONObject;
-import org.verdgram.messenger.AccountInstance;
-import org.verdgram.messenger.ApplicationLoader;
-import org.verdgram.messenger.FileLog;
-import org.verdgram.messenger.UserConfig;
-import org.verdgram.messenger.Utilities;
+import org.telegram.messenger.AccountInstance;
+import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messenger.FileLog;
+import org.telegram.messenger.UserConfig;
+import org.telegram.messenger.Utilities;
 import org.telegram.tgnet.InputSerializedData;
 import org.telegram.tgnet.OutputSerializedData;
 import org.telegram.tgnet.SerializedData;

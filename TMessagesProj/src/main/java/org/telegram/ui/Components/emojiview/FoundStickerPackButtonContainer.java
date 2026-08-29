@@ -11,7 +11,7 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.core.view.WindowInsetsCompat;
 
-import org.verdgram.messenger.utils.GradientProtectionDrawable;
+import org.telegram.messenger.utils.GradientProtectionDrawable;
 import org.telegram.ui.ActionBar.Theme;
 
 @SuppressLint("ViewConstructor")

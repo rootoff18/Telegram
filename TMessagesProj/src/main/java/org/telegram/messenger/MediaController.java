@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.verdgram.messenger;
+package org.telegram.messenger;
 
 import static org.telegram.ui.PhotoViewer.getTempFileAbsolutePath;
 
@@ -82,13 +82,13 @@ import com.google.android.exoplayer2.ui.AspectRatioFrameLayout;
 import com.google.android.gms.cast.MediaMetadata;
 import com.google.android.gms.common.images.WebImage;
 
-import org.verdgram.messenger.audioinfo.AudioInfo;
-import org.verdgram.messenger.chromecast.ChromecastController;
-import org.verdgram.messenger.chromecast.ChromecastFileServer;
-import org.verdgram.messenger.chromecast.ChromecastMedia;
-import org.verdgram.messenger.chromecast.ChromecastMediaVariations;
-import org.verdgram.messenger.video.MediaCodecVideoConvertor;
-import org.verdgram.messenger.voip.VoIPService;
+import org.telegram.messenger.audioinfo.AudioInfo;
+import org.telegram.messenger.chromecast.ChromecastController;
+import org.telegram.messenger.chromecast.ChromecastFileServer;
+import org.telegram.messenger.chromecast.ChromecastMedia;
+import org.telegram.messenger.chromecast.ChromecastMediaVariations;
+import org.telegram.messenger.video.MediaCodecVideoConvertor;
+import org.telegram.messenger.voip.VoIPService;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.InputSerializedData;
 import org.telegram.tgnet.OutputSerializedData;
