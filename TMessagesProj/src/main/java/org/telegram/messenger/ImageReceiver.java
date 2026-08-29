@@ -8,7 +8,7 @@
 
 package org.telegram.messenger;
 
-import static org.verdgram.messenger.ImageLoader.getHttpUrlExtension;
+import static org.telegram.messenger.ImageLoader.getHttpUrlExtension;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;

@@ -10,10 +10,10 @@ package org.telegram.ui.Components;
 
 import static android.view.WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.lerp;
-import static org.verdgram.messenger.LocaleController.formatPluralString;
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.telegram.messenger.LocaleController.formatPluralString;
+import static org.telegram.messenger.LocaleController.getString;
 
 import android.Manifest;
 import android.animation.Animator;

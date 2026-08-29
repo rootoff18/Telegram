@@ -1,7 +1,7 @@
 package org.telegram.ui;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.translitSafe;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.translitSafe;
 import static org.telegram.ui.Stars.StarsController.findAttribute;
 
 import android.animation.Animator;

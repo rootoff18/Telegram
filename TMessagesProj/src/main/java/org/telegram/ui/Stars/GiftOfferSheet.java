@@ -1,12 +1,12 @@
 package org.telegram.ui.Stars;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.formatSpannable;
-import static org.verdgram.messenger.AndroidUtilities.replaceTags;
-import static org.verdgram.messenger.LocaleController.formatNumber;
-import static org.verdgram.messenger.LocaleController.formatPluralString;
-import static org.verdgram.messenger.LocaleController.formatString;
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.formatSpannable;
+import static org.telegram.messenger.AndroidUtilities.replaceTags;
+import static org.telegram.messenger.LocaleController.formatNumber;
+import static org.telegram.messenger.LocaleController.formatPluralString;
+import static org.telegram.messenger.LocaleController.formatString;
+import static org.telegram.messenger.LocaleController.getString;
 import static org.telegram.ui.Stars.StarGiftSheet.addAttributeRow;
 import static org.telegram.ui.Stars.StarsController.findAttribute;
 import static org.telegram.ui.Stars.StarsIntroActivity.replaceStars;

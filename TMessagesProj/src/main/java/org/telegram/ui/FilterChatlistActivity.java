@@ -1,7 +1,7 @@
 package org.telegram.ui;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.lerp;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.lerp;
 import static org.telegram.ui.Components.TextStyleSpan.FLAG_STYLE_SPOILER;
 
 import android.animation.Animator;

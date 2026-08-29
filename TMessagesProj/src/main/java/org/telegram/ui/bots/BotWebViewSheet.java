@@ -1,7 +1,7 @@
 package org.telegram.ui.bots;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.lerp;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.lerp;
 import static org.telegram.ui.Components.Bulletin.DURATION_PROLONG;
 
 import android.animation.Animator;

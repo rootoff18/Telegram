@@ -8,8 +8,8 @@
 
 package org.telegram.ui.Adapters;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.removeSpans;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.removeSpans;
 
 import android.content.Context;
 import android.text.SpannableStringBuilder;

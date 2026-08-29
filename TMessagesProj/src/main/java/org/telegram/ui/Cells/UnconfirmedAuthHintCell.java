@@ -1,8 +1,8 @@
 package org.telegram.ui.Cells;
 
-import static org.verdgram.messenger.AndroidUtilities.REPLACING_TAG_TYPE_LINK;
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.dpf2;
+import static org.telegram.messenger.AndroidUtilities.REPLACING_TAG_TYPE_LINK;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dpf2;
 
 import android.content.Context;
 import android.graphics.Canvas;

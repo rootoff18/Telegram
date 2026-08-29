@@ -8,16 +8,16 @@
 
 package org.telegram.ui.Cells;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.dpf2;
-import static org.verdgram.messenger.AndroidUtilities.find;
-import static org.verdgram.messenger.AndroidUtilities.lerp;
-import static org.verdgram.messenger.LocaleController.formatPluralString;
-import static org.verdgram.messenger.LocaleController.formatPluralStringComma;
-import static org.verdgram.messenger.LocaleController.formatString;
-import static org.verdgram.messenger.LocaleController.getString;
-import static org.verdgram.messenger.MessageObject.getMedia;
-import static org.verdgram.messenger.MessageObject.replaceWithLink;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dpf2;
+import static org.telegram.messenger.AndroidUtilities.find;
+import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.telegram.messenger.LocaleController.formatPluralString;
+import static org.telegram.messenger.LocaleController.formatPluralStringComma;
+import static org.telegram.messenger.LocaleController.formatString;
+import static org.telegram.messenger.LocaleController.getString;
+import static org.telegram.messenger.MessageObject.getMedia;
+import static org.telegram.messenger.MessageObject.replaceWithLink;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

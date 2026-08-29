@@ -8,14 +8,14 @@
 
 package org.telegram.ui;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.LocaleController.getString;
-import static org.verdgram.messenger.NotificationsController.TYPE_CHANNEL;
-import static org.verdgram.messenger.NotificationsController.TYPE_GROUP;
-import static org.verdgram.messenger.NotificationsController.TYPE_PRIVATE;
-import static org.verdgram.messenger.NotificationsController.TYPE_REACTIONS_MESSAGES;
-import static org.verdgram.messenger.NotificationsController.TYPE_REACTIONS_STORIES;
-import static org.verdgram.messenger.NotificationsController.TYPE_STORIES;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.LocaleController.getString;
+import static org.telegram.messenger.NotificationsController.TYPE_CHANNEL;
+import static org.telegram.messenger.NotificationsController.TYPE_GROUP;
+import static org.telegram.messenger.NotificationsController.TYPE_PRIVATE;
+import static org.telegram.messenger.NotificationsController.TYPE_REACTIONS_MESSAGES;
+import static org.telegram.messenger.NotificationsController.TYPE_REACTIONS_STORIES;
+import static org.telegram.messenger.NotificationsController.TYPE_STORIES;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

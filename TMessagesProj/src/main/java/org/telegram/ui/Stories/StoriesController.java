@@ -1,6 +1,6 @@
 package org.telegram.ui.Stories;
 
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.LocaleController.getString;
 
 import android.content.Intent;
 import android.content.SharedPreferences;

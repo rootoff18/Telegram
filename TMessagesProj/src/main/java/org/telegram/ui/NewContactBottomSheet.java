@@ -10,8 +10,8 @@ package org.telegram.ui;
 
 import static android.widget.LinearLayout.HORIZONTAL;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.LocaleController.getString;
 
 import android.Manifest;
 import android.accounts.Account;

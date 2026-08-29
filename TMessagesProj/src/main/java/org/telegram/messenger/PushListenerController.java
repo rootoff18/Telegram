@@ -1,6 +1,6 @@
 package org.telegram.messenger;
 
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.LocaleController.getString;
 
 import android.os.SystemClock;
 import android.text.TextUtils;

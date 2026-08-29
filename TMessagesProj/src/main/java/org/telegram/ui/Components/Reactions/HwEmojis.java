@@ -1,7 +1,7 @@
 package org.telegram.ui.Components.Reactions;
 
-import static org.verdgram.messenger.SharedConfig.PERFORMANCE_CLASS_HIGH;
-import static org.verdgram.messenger.SharedConfig.getDevicePerformanceClass;
+import static org.telegram.messenger.SharedConfig.PERFORMANCE_CLASS_HIGH;
+import static org.telegram.messenger.SharedConfig.getDevicePerformanceClass;
 
 import android.view.View;
 

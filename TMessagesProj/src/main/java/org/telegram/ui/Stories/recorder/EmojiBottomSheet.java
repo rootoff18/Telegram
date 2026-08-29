@@ -1,9 +1,9 @@
 package org.telegram.ui.Stories.recorder;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.dpf2;
-import static org.verdgram.messenger.AndroidUtilities.lerp;
-import static org.verdgram.messenger.AndroidUtilities.translitSafe;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dpf2;
+import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.telegram.messenger.AndroidUtilities.translitSafe;
 
 import android.Manifest;
 import android.app.Activity;

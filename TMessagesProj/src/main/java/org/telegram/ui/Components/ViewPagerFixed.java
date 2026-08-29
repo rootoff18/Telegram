@@ -1,7 +1,7 @@
 package org.telegram.ui.Components;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.Utilities.swapItems;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.Utilities.swapItems;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

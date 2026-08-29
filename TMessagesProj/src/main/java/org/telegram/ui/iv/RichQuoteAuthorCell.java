@@ -1,6 +1,6 @@
 package org.telegram.ui.iv;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -26,7 +26,7 @@ import org.telegram.ui.Components.UniversalRecyclerView;
 
 import java.util.ArrayList;
 
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.LocaleController.getString;
 
 /**
  * Synthetic, presentation-only row shown at the end of a multi-block quote: an author (credit) edit text bound

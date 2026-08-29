@@ -1,8 +1,8 @@
 package org.telegram.ui.bots;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.LocaleController.formatString;
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.LocaleController.formatString;
+import static org.telegram.messenger.LocaleController.getString;
 
 import android.content.Context;
 import android.graphics.PorterDuff;

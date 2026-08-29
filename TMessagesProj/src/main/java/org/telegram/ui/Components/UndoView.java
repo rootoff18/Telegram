@@ -1,6 +1,6 @@
 package org.telegram.ui.Components;
 
-import static org.verdgram.messenger.LocaleController.formatSpannable;
+import static org.telegram.messenger.LocaleController.formatSpannable;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

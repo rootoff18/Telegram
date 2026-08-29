@@ -1,6 +1,6 @@
 package org.telegram.ui.Charts.view_data;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.graphics.Canvas;
 import android.text.Layout;

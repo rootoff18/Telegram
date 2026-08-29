@@ -1,7 +1,7 @@
 package org.telegram.ui.Gifts;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.getActivity;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.getActivity;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

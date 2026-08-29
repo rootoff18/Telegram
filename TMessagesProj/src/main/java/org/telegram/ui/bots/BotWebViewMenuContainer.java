@@ -1,6 +1,6 @@
 package org.telegram.ui.bots;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.ui.ActionBar.Theme.key_windowBackgroundWhiteBlackText;
 
 import android.animation.Animator;

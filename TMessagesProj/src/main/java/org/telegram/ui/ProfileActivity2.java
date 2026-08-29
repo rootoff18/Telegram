@@ -1,14 +1,14 @@
 package org.telegram.ui;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.dpf2;
-import static org.verdgram.messenger.AndroidUtilities.lerp;
-import static org.verdgram.messenger.AndroidUtilities.lerp3;
-import static org.verdgram.messenger.AndroidUtilities.lerpColor3;
-import static org.verdgram.messenger.AndroidUtilities.setRectD;
-import static org.verdgram.messenger.LocaleController.formatPluralString;
-import static org.verdgram.messenger.LocaleController.formatPluralStringComma;
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dpf2;
+import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.telegram.messenger.AndroidUtilities.lerp3;
+import static org.telegram.messenger.AndroidUtilities.lerpColor3;
+import static org.telegram.messenger.AndroidUtilities.setRectD;
+import static org.telegram.messenger.LocaleController.formatPluralString;
+import static org.telegram.messenger.LocaleController.formatPluralStringComma;
+import static org.telegram.messenger.LocaleController.getString;
 import static org.telegram.ui.ActionBar.Theme.getColor;
 import static org.telegram.ui.ActionBar.Theme.multAlpha;
 

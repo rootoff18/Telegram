@@ -1,9 +1,9 @@
 package org.telegram.ui.Components;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.lerp;
-import static org.verdgram.messenger.AndroidUtilities.premiumText;
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.telegram.messenger.AndroidUtilities.premiumText;
+import static org.telegram.messenger.LocaleController.getString;
 import static org.telegram.ui.Components.ImageUpdater.FOR_TYPE_CHANNEL;
 import static org.telegram.ui.Components.ImageUpdater.FOR_TYPE_COMMUNITY;
 import static org.telegram.ui.Components.ImageUpdater.FOR_TYPE_GROUP;

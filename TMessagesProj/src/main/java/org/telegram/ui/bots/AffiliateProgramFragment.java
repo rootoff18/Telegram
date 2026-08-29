@@ -1,8 +1,8 @@
 package org.telegram.ui.bots;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.LocaleController.formatPluralString;
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.LocaleController.formatPluralString;
+import static org.telegram.messenger.LocaleController.getString;
 import static org.telegram.ui.Components.Premium.boosts.cells.selector.SelectorUserCell.buildCountDownTime;
 
 import android.content.Context;

@@ -1,8 +1,8 @@
 package org.telegram.messenger;
 
-import static org.verdgram.messenger.NotificationsController.TYPE_PRIVATE;
-import static org.verdgram.messenger.NotificationsController.TYPE_REACTIONS_MESSAGES;
-import static org.verdgram.messenger.NotificationsController.TYPE_REACTIONS_STORIES;
+import static org.telegram.messenger.NotificationsController.TYPE_PRIVATE;
+import static org.telegram.messenger.NotificationsController.TYPE_REACTIONS_MESSAGES;
+import static org.telegram.messenger.NotificationsController.TYPE_REACTIONS_STORIES;
 
 import android.content.SharedPreferences;
 

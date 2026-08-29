@@ -8,9 +8,9 @@
 
 package org.telegram.ui;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.LocaleController.formatPluralString;
-import static org.verdgram.messenger.LocaleController.formatString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.LocaleController.formatPluralString;
+import static org.telegram.messenger.LocaleController.formatString;
 import static org.telegram.ui.Components.Premium.LimitReachedBottomSheet.TYPE_BOOSTS_FOR_USERS;
 
 import android.Manifest;
@@ -1748,7 +1748,7 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                     if (error) {
                         Toast.makeText(this, "Unsupported content", Toast.LENGTH_SHORT).show();
                     }
-                } else if ("org.verdgram.messenger.CREATE_STICKER_PACK".equals(intent.getAction())) {
+                } else if ("org.telegram.messenger.CREATE_STICKER_PACK".equals(intent.getAction())) {
                     try {
                         importingStickers = intent.getParcelableArrayListExtra(Intent.EXTRA_STREAM);
                         importingStickersEmoji = intent.getStringArrayListExtra("STICKER_EMOJIS");
@@ -2854,9 +2854,9 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                                             NotificationCenter.getInstance(intentAccount[0]).postNotificationName(NotificationCenter.closeChats);
                                             push_user_id = userId;
                                             String mimeType = cursor.getString(cursor.getColumnIndex(ContactsContract.Data.MIMETYPE));
-                                            if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.org.verdgram.messenger.android.call")) {
+                                            if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call")) {
                                                 audioCallUser = true;
-                                            } else if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.org.verdgram.messenger.android.call.video")) {
+                                            } else if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call.video")) {
                                                 videoCallUser = true;
                                             }
                                         }
@@ -2867,7 +2867,7 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                             }
                         }
                     }
-                } else if (intent.getAction().equals("org.verdgram.messenger.OPEN_ACCOUNT")) {
+                } else if (intent.getAction().equals("org.telegram.messenger.OPEN_ACCOUNT")) {
                     open_settings = 1;
                 } else if (intent.getAction().equals("new_dialog")) {
                     open_new_dialog = 1;

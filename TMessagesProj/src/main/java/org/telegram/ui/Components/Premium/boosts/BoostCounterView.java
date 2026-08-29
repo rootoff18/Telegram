@@ -1,6 +1,6 @@
 package org.telegram.ui.Components.Premium.boosts;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

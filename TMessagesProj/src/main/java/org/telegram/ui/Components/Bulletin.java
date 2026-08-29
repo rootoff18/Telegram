@@ -1,8 +1,8 @@
 package org.telegram.ui.Components;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.dpf2;
-import static org.verdgram.messenger.Utilities.dist;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dpf2;
+import static org.telegram.messenger.Utilities.dist;
 import static java.lang.annotation.RetentionPolicy.SOURCE;
 
 import android.animation.Animator;

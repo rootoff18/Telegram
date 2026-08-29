@@ -8,8 +8,8 @@
 
 package org.telegram.messenger.voip;
 
-import static org.verdgram.messenger.MessagesController.findUpdates;
-import static org.verdgram.messenger.MessagesController.findUpdatesAndRemove;
+import static org.telegram.messenger.MessagesController.findUpdates;
+import static org.telegram.messenger.MessagesController.findUpdatesAndRemove;
 
 import android.Manifest;
 import android.annotation.SuppressLint;

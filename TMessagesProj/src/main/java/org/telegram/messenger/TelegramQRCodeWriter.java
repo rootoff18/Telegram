@@ -16,7 +16,7 @@
 
 package org.telegram.messenger;
 
-import static org.verdgram.messenger.AndroidUtilities.readRes;
+import static org.telegram.messenger.AndroidUtilities.readRes;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

@@ -1,8 +1,8 @@
 package org.telegram.ui.Stories.recorder;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.dpf2;
-import static org.verdgram.messenger.AndroidUtilities.lerp;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dpf2;
+import static org.telegram.messenger.AndroidUtilities.lerp;
 import static org.telegram.ui.ActionBar.Theme.RIPPLE_MASK_CIRCLE_20DP;
 
 import android.content.Context;

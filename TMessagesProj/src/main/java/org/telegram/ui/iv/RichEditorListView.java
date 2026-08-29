@@ -1,7 +1,7 @@
 package org.telegram.ui.iv;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.LocaleController.getString;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -642,7 +642,7 @@ public class RichEditorListView extends UniversalRecyclerView {
             media.state = MediaUploadState.STATE_DONE;
             media.photo = photo;
             media.hasSpoiler = ((TL_iv.pageBlockPhoto) block).spoiler;
-            final TLRPC.PhotoSize big = org.verdgram.messenger.FileLoader.getClosestPhotoSizeWithSize(photo.sizes, AndroidUtilities.getPhotoSize());
+            final TLRPC.PhotoSize big = org.telegram.messenger.FileLoader.getClosestPhotoSizeWithSize(photo.sizes, AndroidUtilities.getPhotoSize());
             if (big != null) {
                 media.width = big.w;
                 media.height = big.h;

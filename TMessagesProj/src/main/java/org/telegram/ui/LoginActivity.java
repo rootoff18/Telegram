@@ -8,13 +8,13 @@
 
 package org.telegram.ui;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.replaceArrows;
-import static org.verdgram.messenger.AndroidUtilities.replaceSingleTag;
-import static org.verdgram.messenger.LocaleController.formatPluralStringComma;
-import static org.verdgram.messenger.LocaleController.formatString;
-import static org.verdgram.messenger.LocaleController.getString;
-import static org.verdgram.messenger.MessagesController.findUpdatesAndRemove;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.replaceArrows;
+import static org.telegram.messenger.AndroidUtilities.replaceSingleTag;
+import static org.telegram.messenger.LocaleController.formatPluralStringComma;
+import static org.telegram.messenger.LocaleController.formatString;
+import static org.telegram.messenger.LocaleController.getString;
+import static org.telegram.messenger.MessagesController.findUpdatesAndRemove;
 
 import android.Manifest;
 import android.animation.Animator;

@@ -1,10 +1,10 @@
 package org.telegram.ui.Components;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.MessageObject.POSITION_FLAG_BOTTOM;
-import static org.verdgram.messenger.MessageObject.POSITION_FLAG_LEFT;
-import static org.verdgram.messenger.MessageObject.POSITION_FLAG_RIGHT;
-import static org.verdgram.messenger.MessageObject.POSITION_FLAG_TOP;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.MessageObject.POSITION_FLAG_BOTTOM;
+import static org.telegram.messenger.MessageObject.POSITION_FLAG_LEFT;
+import static org.telegram.messenger.MessageObject.POSITION_FLAG_RIGHT;
+import static org.telegram.messenger.MessageObject.POSITION_FLAG_TOP;
 import static org.telegram.ui.Components.UndoView.ACTION_PREVIEW_MEDIA_DESELECTED;
 
 import android.animation.Animator;

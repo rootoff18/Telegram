@@ -1,7 +1,7 @@
 package org.telegram.ui.Components;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.openDocument;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.openDocument;
 
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;

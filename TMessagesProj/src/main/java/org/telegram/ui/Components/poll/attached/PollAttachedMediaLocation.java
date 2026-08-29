@@ -1,6 +1,6 @@
 package org.telegram.ui.Components.poll.attached;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;

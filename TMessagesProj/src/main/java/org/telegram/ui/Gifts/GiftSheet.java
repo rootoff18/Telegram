@@ -1,12 +1,12 @@
 package org.telegram.ui.Gifts;
 
 import static android.view.View.IMPORTANT_FOR_ACCESSIBILITY_NO;
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.dpf2;
-import static org.verdgram.messenger.AndroidUtilities.lerp;
-import static org.verdgram.messenger.LocaleController.formatPluralStringComma;
-import static org.verdgram.messenger.LocaleController.formatString;
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dpf2;
+import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.telegram.messenger.LocaleController.formatPluralStringComma;
+import static org.telegram.messenger.LocaleController.formatString;
+import static org.telegram.messenger.LocaleController.getString;
 import static org.telegram.ui.Stars.StarsController.findAttribute;
 import static org.telegram.ui.Stars.StarsIntroActivity.StarsTransactionView.getPlatformDrawable;
 import static org.telegram.ui.bots.AffiliateProgramFragment.percents;

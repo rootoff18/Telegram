@@ -8,12 +8,12 @@
 
 package org.telegram.ui;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.LocaleController.formatNumber;
-import static org.verdgram.messenger.LocaleController.getString;
-import static org.verdgram.messenger.MediaDataController.TYPE_EMOJIPACKS;
-import static org.verdgram.messenger.MediaDataController.TYPE_IMAGE;
-import static org.verdgram.messenger.MediaDataController.TYPE_MASK;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.LocaleController.formatNumber;
+import static org.telegram.messenger.LocaleController.getString;
+import static org.telegram.messenger.MediaDataController.TYPE_EMOJIPACKS;
+import static org.telegram.messenger.MediaDataController.TYPE_IMAGE;
+import static org.telegram.messenger.MediaDataController.TYPE_MASK;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

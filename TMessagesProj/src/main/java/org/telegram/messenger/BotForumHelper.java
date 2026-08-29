@@ -1,6 +1,6 @@
 package org.telegram.messenger;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.app.Activity;
 import android.content.SharedPreferences;

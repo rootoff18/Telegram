@@ -8,7 +8,7 @@
 
 package org.telegram.ui;
 
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.LocaleController.getString;
 
 import android.Manifest;
 import android.animation.Animator;

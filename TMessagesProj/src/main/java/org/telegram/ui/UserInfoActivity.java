@@ -1,11 +1,11 @@
 package org.telegram.ui;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.replaceArrows;
-import static org.verdgram.messenger.AndroidUtilities.replaceSingleLink;
-import static org.verdgram.messenger.AndroidUtilities.replaceSingleTag;
-import static org.verdgram.messenger.LocaleController.formatString;
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.replaceArrows;
+import static org.telegram.messenger.AndroidUtilities.replaceSingleLink;
+import static org.telegram.messenger.AndroidUtilities.replaceSingleTag;
+import static org.telegram.messenger.LocaleController.formatString;
+import static org.telegram.messenger.LocaleController.getString;
 import static org.telegram.ui.Cells.TextCell.applyNewSpan;
 import static org.telegram.ui.Components.Premium.LimitReachedBottomSheet.TYPE_ACCOUNTS;
 

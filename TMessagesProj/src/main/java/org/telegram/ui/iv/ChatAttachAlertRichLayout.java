@@ -1,7 +1,7 @@
 package org.telegram.ui.iv;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.LocaleController.getString;
 
 import android.content.Context;
 import android.content.Intent;
@@ -1045,11 +1045,11 @@ public class ChatAttachAlertRichLayout extends ChatAttachAlert.AttachAlertLayout
                     listView.pendingMediaRow = null;
                     for (int a = 0; a < order.size(); a++) {
                         final Object object = photos.get(order.get(a));
-                        if (object instanceof org.verdgram.messenger.MediaController.PhotoEntry) {
+                        if (object instanceof org.telegram.messenger.MediaController.PhotoEntry) {
                             if (target != null) {
-                                listView.addMediaToRow(target, (org.verdgram.messenger.MediaController.PhotoEntry) object);
+                                listView.addMediaToRow(target, (org.telegram.messenger.MediaController.PhotoEntry) object);
                             } else {
-                                listView.attachMedia((org.verdgram.messenger.MediaController.PhotoEntry) object);
+                                listView.attachMedia((org.telegram.messenger.MediaController.PhotoEntry) object);
                             }
                             break;
                         }

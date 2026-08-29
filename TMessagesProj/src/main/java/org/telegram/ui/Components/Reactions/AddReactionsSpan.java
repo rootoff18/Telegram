@@ -1,7 +1,7 @@
 package org.telegram.ui.Components.Reactions;
 
 import static android.graphics.Canvas.ALL_SAVE_FLAG;
-import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

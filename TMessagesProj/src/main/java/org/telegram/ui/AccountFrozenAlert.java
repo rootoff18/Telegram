@@ -1,11 +1,11 @@
 package org.telegram.ui;
 
-import static org.verdgram.messenger.AndroidUtilities.accelerateInterpolator;
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.replaceSingleTag;
-import static org.verdgram.messenger.LocaleController.formatString;
-import static org.verdgram.messenger.LocaleController.formatYearMonthDay;
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.AndroidUtilities.accelerateInterpolator;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.replaceSingleTag;
+import static org.telegram.messenger.LocaleController.formatString;
+import static org.telegram.messenger.LocaleController.formatYearMonthDay;
+import static org.telegram.messenger.LocaleController.getString;
 
 import android.content.Context;
 import android.text.TextUtils;

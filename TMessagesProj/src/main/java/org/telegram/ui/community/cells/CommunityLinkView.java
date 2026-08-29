@@ -1,7 +1,7 @@
 package org.telegram.ui.community.cells;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.LocaleController.formatPluralString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.LocaleController.formatPluralString;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

@@ -1,10 +1,10 @@
 package org.telegram.ui.web;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.readRes;
-import static org.verdgram.messenger.AndroidUtilities.replaceSingleLinkBold;
-import static org.verdgram.messenger.LocaleController.formatString;
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.readRes;
+import static org.telegram.messenger.AndroidUtilities.replaceSingleLinkBold;
+import static org.telegram.messenger.LocaleController.formatString;
+import static org.telegram.messenger.LocaleController.getString;
 
 import android.Manifest;
 import android.animation.Animator;

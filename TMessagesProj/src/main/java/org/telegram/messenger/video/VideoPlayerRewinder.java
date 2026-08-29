@@ -1,6 +1,6 @@
 package org.telegram.messenger.video;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.util.Log;
 

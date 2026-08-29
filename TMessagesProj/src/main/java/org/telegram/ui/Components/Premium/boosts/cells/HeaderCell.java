@@ -1,7 +1,7 @@
 package org.telegram.ui.Components.Premium.boosts.cells;
 
-import static org.verdgram.messenger.AndroidUtilities.REPLACING_TAG_TYPE_LINKBOLD;
-import static org.verdgram.messenger.AndroidUtilities.lerp;
+import static org.telegram.messenger.AndroidUtilities.REPLACING_TAG_TYPE_LINKBOLD;
+import static org.telegram.messenger.AndroidUtilities.lerp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

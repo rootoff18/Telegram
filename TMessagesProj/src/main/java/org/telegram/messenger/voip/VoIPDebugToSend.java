@@ -1,6 +1,6 @@
 package org.telegram.messenger.voip;
 
-import static org.verdgram.messenger.voip.VoIPService.getStringFromFile;
+import static org.telegram.messenger.voip.VoIPService.getStringFromFile;
 
 import android.text.TextUtils;
 

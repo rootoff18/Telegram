@@ -8,7 +8,7 @@
 
 package org.telegram.messenger.camera;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -733,7 +733,7 @@ public class CameraView extends FrameLayout implements TextureView.SurfaceTextur
         float size4to3 = 4.0f / 3.0f;
         float size16to9 = 16.0f / 9.0f;
         float screenSize = (float) Math.max(AndroidUtilities.displaySize.x, AndroidUtilities.displaySize.y) / Math.min(AndroidUtilities.displaySize.x, AndroidUtilities.displaySize.y);
-        org.verdgram.messenger.camera.Size aspectRatio;
+        org.telegram.messenger.camera.Size aspectRatio;
         int wantedWidth;
         int wantedHeight;
 

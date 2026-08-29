@@ -1,8 +1,8 @@
 package org.telegram.ui;
 
-import static org.verdgram.messenger.SharedConfig.SAVE_TO_GALLERY_FLAG_CHANNELS;
-import static org.verdgram.messenger.SharedConfig.SAVE_TO_GALLERY_FLAG_GROUP;
-import static org.verdgram.messenger.SharedConfig.SAVE_TO_GALLERY_FLAG_PEER;
+import static org.telegram.messenger.SharedConfig.SAVE_TO_GALLERY_FLAG_CHANNELS;
+import static org.telegram.messenger.SharedConfig.SAVE_TO_GALLERY_FLAG_GROUP;
+import static org.telegram.messenger.SharedConfig.SAVE_TO_GALLERY_FLAG_PEER;
 
 import android.content.Context;
 import android.graphics.Canvas;

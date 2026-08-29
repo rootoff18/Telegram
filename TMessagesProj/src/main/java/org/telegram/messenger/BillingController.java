@@ -1,6 +1,6 @@
 package org.telegram.messenger;
 
-import static org.verdgram.messenger.MessagesController.findUpdatesAndRemove;
+import static org.telegram.messenger.MessagesController.findUpdatesAndRemove;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;

@@ -1,13 +1,13 @@
 package org.telegram.ui.Components;
 
 import static androidx.core.view.ViewCompat.performHapticFeedback;
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.lerp;
-import static org.verdgram.messenger.AndroidUtilities.replaceSingleTag;
-import static org.verdgram.messenger.LocaleController.formatPluralString;
-import static org.verdgram.messenger.LocaleController.formatString;
-import static org.verdgram.messenger.LocaleController.getString;
-import static org.verdgram.messenger.TranslateController.normalizeLanguage;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.telegram.messenger.AndroidUtilities.replaceSingleTag;
+import static org.telegram.messenger.LocaleController.formatPluralString;
+import static org.telegram.messenger.LocaleController.formatString;
+import static org.telegram.messenger.LocaleController.getString;
+import static org.telegram.messenger.TranslateController.normalizeLanguage;
 import static org.telegram.ui.Components.TranslateAlert2.capitalFirst;
 import static org.telegram.ui.Components.TranslateAlert2.languageName;
 

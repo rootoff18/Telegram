@@ -1,6 +1,6 @@
 package org.telegram.ui.Components;
 
-import static org.verdgram.messenger.AndroidUtilities.lerp;
+import static org.telegram.messenger.AndroidUtilities.lerp;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;

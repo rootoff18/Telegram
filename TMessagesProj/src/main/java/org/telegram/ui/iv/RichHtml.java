@@ -1,6 +1,6 @@
 package org.telegram.ui.iv;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;

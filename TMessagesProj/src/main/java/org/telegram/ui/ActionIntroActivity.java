@@ -8,7 +8,7 @@
 
 package org.telegram.ui;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.Manifest;
 import android.content.Context;

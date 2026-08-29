@@ -1,6 +1,6 @@
 package org.telegram.ui.iv;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -69,14 +69,14 @@ public class RichButtonRowCell extends RichBlockCell implements Theme.Colorable 
 
         addButton = new RichEditor.Button(context, R.drawable.msg_add, resourcesProvider).setRoundRadius(19);
         addButton.setSelected(true);
-        addButton.setContentDescription(org.verdgram.messenger.LocaleController.getString(R.string.Add));
+        addButton.setContentDescription(org.telegram.messenger.LocaleController.getString(R.string.Add));
         addButton.setOnClickListener(v -> {
             if (delegate != null && currentRow != null) delegate.onAddButton(currentRow, v);
         });
         addView(addButton, LayoutHelper.createFrame(38, 38, Gravity.RIGHT | Gravity.CENTER_VERTICAL));
 
         emptyAddButton = new TextView(context);
-        emptyAddButton.setText(org.verdgram.messenger.LocaleController.getString(R.string.RichEditorAddButton));
+        emptyAddButton.setText(org.telegram.messenger.LocaleController.getString(R.string.RichEditorAddButton));
         emptyAddButton.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
         emptyAddButton.setTypeface(AndroidUtilities.bold());
         emptyAddButton.setGravity(Gravity.CENTER);

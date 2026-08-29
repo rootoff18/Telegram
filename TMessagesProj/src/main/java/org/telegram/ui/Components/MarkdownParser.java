@@ -1,7 +1,7 @@
 package org.telegram.ui.Components;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.find;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.find;
 
 import android.text.TextUtils;
 import org.telegram.messenger.AndroidUtilities;

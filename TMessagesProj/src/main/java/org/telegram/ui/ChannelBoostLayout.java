@@ -1,6 +1,6 @@
 package org.telegram.ui;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.tgnet.TLRPC.TL_payments_checkedGiftCode.NO_USER_ID;
 
 import android.animation.Animator;

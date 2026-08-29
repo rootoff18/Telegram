@@ -8,12 +8,12 @@
 
 package org.telegram.messenger;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.LocaleController.getString;
-import static org.verdgram.messenger.NotificationsController.TYPE_CHANNEL;
-import static org.verdgram.messenger.NotificationsController.TYPE_PRIVATE;
-import static org.verdgram.messenger.NotificationsController.TYPE_REACTIONS_MESSAGES;
-import static org.verdgram.messenger.Utilities.tryParseLong;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.LocaleController.getString;
+import static org.telegram.messenger.NotificationsController.TYPE_CHANNEL;
+import static org.telegram.messenger.NotificationsController.TYPE_PRIVATE;
+import static org.telegram.messenger.NotificationsController.TYPE_REACTIONS_MESSAGES;
+import static org.telegram.messenger.Utilities.tryParseLong;
 import static org.telegram.ui.Stars.StarsController.findAttribute;
 import static org.telegram.ui.Stories.HighlightMessageSheet.parseTiers;
 import static org.telegram.ui.Stories.HighlightMessageSheet.parseTiersString;

@@ -1,6 +1,6 @@
 package org.telegram.ui;
 
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.LocaleController.getString;
 
 import android.app.Activity;
 import android.graphics.PointF;

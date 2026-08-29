@@ -1,6 +1,6 @@
 package org.telegram.ui.Components.blur3.drawable.color.impl;
 
-import static org.verdgram.messenger.AndroidUtilities.dpf2;
+import static org.telegram.messenger.AndroidUtilities.dpf2;
 
 import android.graphics.Color;
 

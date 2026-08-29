@@ -1,9 +1,9 @@
 package org.telegram.ui;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.LocaleController.formatString;
-import static org.verdgram.messenger.LocaleController.getString;
-import static org.verdgram.messenger.MessagesController.findUpdatesAndRemove;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.LocaleController.formatString;
+import static org.telegram.messenger.LocaleController.getString;
+import static org.telegram.messenger.MessagesController.findUpdatesAndRemove;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

@@ -1,7 +1,7 @@
 package org.telegram.ui.Stories;
 
-import static org.verdgram.messenger.SharedConfig.PERFORMANCE_CLASS_HIGH;
-import static org.verdgram.messenger.SharedConfig.getDevicePerformanceClass;
+import static org.telegram.messenger.SharedConfig.PERFORMANCE_CLASS_HIGH;
+import static org.telegram.messenger.SharedConfig.getDevicePerformanceClass;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

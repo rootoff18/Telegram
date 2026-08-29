@@ -1,8 +1,8 @@
 package org.telegram.ui.Stars;
 
-import static org.verdgram.messenger.AndroidUtilities.dp;
-import static org.verdgram.messenger.AndroidUtilities.dpf2;
-import static org.verdgram.messenger.AndroidUtilities.lerp;
+import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.messenger.AndroidUtilities.dpf2;
+import static org.telegram.messenger.AndroidUtilities.lerp;
 import static org.telegram.ui.Stars.StarsController.findAttribute;
 
 import android.animation.TimeInterpolator;

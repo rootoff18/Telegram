@@ -8,11 +8,11 @@
 
 package org.telegram.messenger;
 
-import static org.verdgram.messenger.MessagesController.LOAD_AROUND_DATE;
-import static org.verdgram.messenger.MessagesController.LOAD_AROUND_MESSAGE;
-import static org.verdgram.messenger.MessagesController.LOAD_BACKWARD;
-import static org.verdgram.messenger.MessagesController.LOAD_FORWARD;
-import static org.verdgram.messenger.MessagesController.LOAD_FROM_UNREAD;
+import static org.telegram.messenger.MessagesController.LOAD_AROUND_DATE;
+import static org.telegram.messenger.MessagesController.LOAD_AROUND_MESSAGE;
+import static org.telegram.messenger.MessagesController.LOAD_BACKWARD;
+import static org.telegram.messenger.MessagesController.LOAD_FORWARD;
+import static org.telegram.messenger.MessagesController.LOAD_FROM_UNREAD;
 
 import android.appwidget.AppWidgetManager;
 import android.content.SharedPreferences;

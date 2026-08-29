@@ -8,7 +8,7 @@
 
 package org.telegram.ui.Components;
 
-import static org.verdgram.messenger.LocaleController.getString;
+import static org.telegram.messenger.LocaleController.getString;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
