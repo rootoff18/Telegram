@@ -240,7 +240,7 @@ android {
         }
     }
 
-    namespace 'org.verdgram.messenger'
+    namespace 'org.telegram.messenger'
 }
 
 
